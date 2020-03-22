@@ -1,0 +1,2837 @@
+Type: "mo$:C& up1%GARdE'y"4v^O%
+PublicKeyToken=null
+MVID: C3B3D3B9-DA66-409B-904C-1D60656806A1
+
+using DevExpress.Utils;
+using DevExpress.Utils.Menu;
+using DevExpress.XtraBars;
+using DevExpress.XtraBars.Navigation;
+using DevExpress.XtraEditors;
+using DevExpress.XtraEditors.Controls;
+using DevExpress.XtraEditors.Repository;
+using DevExpress.XtraGrid;
+using DevExpress.XtraTab;
+using DevExpress.XtraTreeList;
+using DevExpress.XtraTreeList.Columns;
+using MaterialSkin;
+using MaterialSkin.Controls;
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
+
+public class \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025 : XtraUserControl
+{
+  private readonly tx\u005D\u005D\u007DMYQ\u0029E2z\u0023\u002B\u003AUN_3V\u007C\u0024z\u003E \u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮;
+  private readonly \u200B⁬⁭‫⁮‭‍⁪‬‭⁭‭⁯‭⁭‏⁬⁮‭‪⁭⁯‏‎‍​⁫‭⁮⁪‫⁪‮⁮⁯⁫​‫‌‭‮ \u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮;
+  private readonly BackgroundWorker \u202B‫⁬‬⁬‎⁭‬⁪‏⁪​⁫‎⁮‎⁪‮⁭‭‫‪⁭⁫​‮⁭‏‍⁫⁬⁬‭⁬⁭‬‫‎⁭‌‮;
+  private bool \u202E‏⁯​​⁮⁮⁪‍‎⁯‮‮⁮‍‭⁪⁮⁪‪‪⁭⁭‍‬‎‌‍‬‍‪⁯⁬‪‪‮‍‪‪‌‮;
+  private IContainer \u206B⁫‪‍⁬⁪⁪⁫⁫⁫‬​​‬⁭⁮⁭‍‪‏⁮‎⁫‌⁭‏‏‮​​‍⁯‌‍‮‍‭‪⁫⁬‮;
+  private XtraTabControl \u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮;
+  private SidePanel \u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮;
+  private TreeList \u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮;
+  private TreeListColumn \u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮;
+  private RepositoryItemTextEdit \u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮;
+  private LabelControl \u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮;
+  private LabelControl \u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮;
+  public AccordionControl \u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮;
+  private AccordionControlSeparator \u206C‏‫‍‫‬‮‏⁬⁪⁭⁮⁮‭⁭⁭​‏‍‏⁬⁮⁫‮⁬⁮⁫‌‪‎⁭‎⁪‬‌​⁬‭⁫‎‮;
+  private AccordionControlElement \u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮;
+  private AccordionControlElement \u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮;
+  private AccordionControlElement \u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮;
+  private AccordionControlElement \u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮;
+  private AccordionControlElement \u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮;
+  private AccordionControlSeparator \u206B⁭‬​‭‏‭⁫‌⁮‭‌⁫‫‍⁪‍⁪⁭⁪‭‬⁯‫‬‏⁬⁭‏‭⁭⁮‪‪⁮‫‮⁬‌‮;
+  private TileControl \u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮;
+  private TileGroup \u200E⁪⁯​‭‪⁯⁫‫‌⁮‭‪‎‪⁯‬‏‍⁪​‏‎⁮‮‬⁮‬‭‬‎‫‎⁯⁮‏​‬‫‏‮;
+  private TileItem \u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮;
+  private TileItem \u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮;
+  private ImageList \u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮;
+  private BarManager \u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮;
+  private BarDockControl \u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮;
+  private BarDockControl \u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮;
+  private BarDockControl \u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮;
+  private BarDockControl \u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮;
+  private BarButtonItem \u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮;
+  private BarButtonItem \u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮;
+  private BarButtonItem \u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮;
+  private BarButtonItem \u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮;
+  private PopupMenu \u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮;
+  private PanelControl \u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮;
+  private MaterialSingleLineTextField \u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮;
+  private Panel \u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮;
+  private MaterialRaisedButton \u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮;
+
+  public \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025(
+    tx\u005D\u005D\u007DMYQ\u0029E2z\u0023\u002B\u003AUN_3V\u007C\u0024z\u003E _param1)
+  {
+    this.\u202E‬⁫​‪⁪⁭⁬‍⁬‮‍⁭⁬‎⁪‮‫⁮‍‪​⁬‍‬‮‎‭‭⁯‪‮⁭⁪‮​⁯⁮‬⁭‮();
+    this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮ = _param1;
+    \u200E⁭⁯‫‍‮‪⁫‭⁪​‬‮‪​‬‎⁫‌⁬‌​⁮‮⁮‭‭‭‪⁭‎‏‌⁯‍‌⁬⁭‬‫‮.\u200C⁬⁮‮‌⁯⁯⁫⁯⁫⁮⁯⁭⁯⁬⁫‍‮⁭⁪‪‎‍⁮⁭⁯⁮⁯‮⁯‎⁫‫‭⁪‍⁬‌‪‌‮(this);
+    this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮ = \u200E⁭⁯‫‍‮‪⁫‭⁪​‬‮‪​‬‎⁫‌⁬‌​⁮‮⁮‭‭‭‪⁭‎‏‌⁯‍‌⁬⁭‬‫‮.\u206B⁭‏‮⁭‫​⁮‏⁪​⁯‌⁯‪⁫⁮‍‍⁯‭‍‎⁭⁮⁪‬⁪‫‌⁭‮‮⁯⁯‬‏​⁫‍‮();
+    this.\u202B‫⁬‬⁬‎⁭‬⁪‏⁪​⁫‎⁮‎⁪‮⁭‭‫‪⁭⁫​‮⁭‏‍⁫⁬⁬‭⁬⁭‬‫‎⁭‌‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D⁯‌‎​⁬⁮⁮⁭⁫⁫⁭‫‭⁮‫‪​⁪‬‫‎​‮⁫⁪‍⁮⁬⁯​‎⁭‪⁭‌⁪⁭‬‏‮();
+    \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‎‎​⁯‭‏⁪⁮‍⁪‬‮⁫⁮⁬​​‮‏‪‬⁪⁬‫⁭‮⁪⁮⁬⁯⁪‭‮‍‍⁯⁬‌‍‮(this.\u202B‫⁬‬⁬‎⁭‬⁪‏⁪​⁫‎⁮‎⁪‮⁭‭‫‪⁭⁫​‮⁭‏‍⁫⁬⁬‭⁬⁭‬‫‎⁭‌‮, new DoWorkEventHandler(this.\u202C‎‪‎‫⁯‫⁮‪⁯⁯⁪⁭⁫‏‭‍‮⁬⁬​⁯⁬‌⁫⁮⁯‮‏⁯‪⁭⁮‎‪‌⁫⁬⁫‭‮));
+    CancelEventHandler cancelEventHandler = new CancelEventHandler(this.\u200D‮⁪‭‎‬‭⁪⁬‭‪‍‎⁬⁬⁭‍⁭⁮‎‫‎‌‫‎⁫‬⁯⁭‭⁭‪‏‭⁭⁪⁫‬‮‭‮);
+    \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202B‬‏‎‮‮⁫⁭‫‌⁮‍‪⁫‭‍‮‭‪‏⁭‬‏⁪‭⁭⁯⁯‪‪⁯⁬‮⁬⁬⁮‬‫‏‮((Form) _param1, cancelEventHandler);
+  }
+
+  public virtual void \u206A‏‌‭‭‭⁯‏‍‍​‫‍⁬⁯‭⁮‌⁪‍⁬⁫⁬⁫‎‎‮‪‫‌‪‍⁬‬⁮⁯⁯‎⁭‪‮()
+  {
+    this.\u202E‏⁯​​⁮⁮⁪‍‎⁯‮‮⁮‍‭⁪⁮⁪‪‪⁭⁭‍‬‎‌‍‬‍‪⁯⁬‪‪‮‍‪‪‌‮ = \u202A‮⁬⁯‎⁬⁫‌⁭⁯⁭‎⁮⁫⁭⁯​‭⁬⁫‭‭‌​​‌‍‫⁮⁬‮‮‪⁪⁯‫⁮‫‪⁬‮.\u202A‪‫⁫‍⁯‎⁭⁫‏‍‪‌‪‪⁫‬⁮⁫‏‬‎⁯⁯⁮‬‍⁯‍‎⁭‪⁪​⁪‎⁪⁮⁫⁬‮().\u202E​‮‪‏‫⁮⁯‎‭‫‎‌⁫‫⁭‫​‍⁭⁬⁯⁮‏​‪‎⁯‬‬‍⁪⁬⁪‫‎⁫‏⁬⁮‮() == \u202A‮⁬⁯‎⁬⁫‌⁭⁯⁭‎⁮⁫⁭⁯​‭⁬⁫‭‭‌​​‌‍‫⁮⁬‮‮‪⁪⁯‫⁮‫‪⁬‮.\u202D‬⁮⁬⁯‍‮⁯​‭‭‪⁫⁪⁭‍⁬‌‮‬​‏⁮‏​⁬‏⁪‭‮‌‌⁯⁬‫⁪‎‏⁭‭‮.RCE;
+label_1:
+    int num1 = -1336345408;
+    while (true)
+    {
+      uint num2;
+      switch ((num2 = (uint) (num1 ^ -1228299087)) % 4U)
+      {
+        case 0:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‏⁮⁪‎‌‫‫‫‎‬‬‏‏⁬⁮⁮‍‎‌⁭⁫‭‭‬⁪‎‭​‌⁭⁮⁯‮⁯⁪‎​‏‎‮((Control) this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮, !this.\u202E‏⁯​​⁮⁮⁪‍‎⁯‮‮⁮‍‭⁪⁮⁪‪‪⁭⁭‍‬‎‌‍‬‍‪⁯⁬‪‪‮‍‪‪‌‮);
+          this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u200E⁪⁭⁬‫‫⁪‫‫‏‬‍‭⁯‍⁭⁭‬‎‪‫⁪⁭‎‬‏⁮‎‮‭‏‭‌⁮⁮⁯‫‎⁯‍‮();
+          num1 = (int) num2 * -1065959958 ^ 2101099179;
+          continue;
+        case 1:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‏⁮⁪‎‌‫‫‫‎‬‬‏‏⁬⁮⁮‍‎‌⁭⁫‭‭‬⁪‎‭​‌⁭⁮⁯‮⁯⁪‎​‏‎‮((Control) this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮, this.\u202E‏⁯​​⁮⁮⁪‍‎⁯‮‮⁮‍‭⁪⁮⁪‪‪⁭⁭‍‬‎‌‍‬‍‪⁯⁬‪‪‮‍‪‪‌‮);
+          num1 = (int) num2 * 1593544426 ^ 577452627;
+          continue;
+        case 2:
+          goto label_3;
+        case 3:
+          goto label_1;
+        default:
+          goto label_6;
+      }
+    }
+label_3:
+    return;
+label_6:;
+  }
+
+  private void \u200D‮⁪‭‎‬‭⁪⁬‭‪‍‎⁬⁬⁭‍⁭⁮‎‫‎‌‫‎⁫‬⁯⁭‭⁭‪‏‭⁭⁪⁫‬‮‭‮(
+    object _param1,
+    CancelEventArgs _param2)
+  {
+    if (!this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u206C⁫​⁪​‎⁮⁮⁪⁯⁬‪‏‮‭⁪‬⁮‪​‌⁮​⁫⁯⁪​‌‎⁮‍‎‌​⁭​‌‏⁭⁬‮())
+      return;
+label_1:
+    int num1 = 2067206278;
+    while (true)
+    {
+      uint num2;
+      switch ((num2 = (uint) (num1 ^ 91481076)) % 5U)
+      {
+        case 0:
+          goto label_7;
+        case 1:
+          int num3 = this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u206E⁯‬‬⁪‫⁭⁫‍​‎⁯‌‪‏‫⁭⁮⁫⁮‌⁫​​⁭‌‎‪‮‬‮‬‭​⁯‫‭⁭‫‮‮() ? 1339090429 : (num3 = 1258912694);
+          num1 = num3 ^ (int) num2 * -1736474824;
+          continue;
+        case 2:
+          goto label_6;
+        case 3:
+          goto label_1;
+        case 4:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D‫‎⁪⁮⁬⁮‌⁬‭⁪⁮​‍‭⁪‬‌‫‭‫‎​⁮‪⁯‬‏⁫‬‫‌‬‭‮‭‮‮‪‫‮(_param2, true);
+          num1 = 1783204141;
+          continue;
+        default:
+          goto label_8;
+      }
+    }
+label_7:
+    return;
+label_6:
+    return;
+label_8:;
+  }
+
+  private void \u202C‎‪‎‫⁯‫⁮‪⁯⁯⁪⁭⁫‏‭‍‮⁬⁬​⁯⁬‌⁫⁮⁯‮‏⁯‪⁭⁮‎‪‌⁫⁬⁫‭‮(
+    object _param1,
+    DoWorkEventArgs _param2)
+  {
+    if (this.\u202E‏⁯​​⁮⁮⁪‍‎⁯‮‮⁮‍‭⁪⁮⁪‪‪⁭⁭‍‬‎‌‍‬‍‪⁯⁬‪‪‮‍‪‪‌‮)
+    {
+label_1:
+      uint num;
+      switch ((num = (uint) (-1973890725 ^ -426196323)) % 3U)
+      {
+        case 0:
+          goto label_1;
+        case 1:
+          this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u202B⁫⁫‪⁫⁯‎‬⁫⁯‌‏‏⁪​⁯‪⁭‮‎​‏⁫‫​‫⁯​⁭⁭⁯‍‪⁯⁭⁯‬‍⁪‍‮(this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮.\u202C‌‮‏‏‌⁪‌‫⁯⁯⁯‮‍‎⁭‍‭⁯​⁬‏‮‫‬⁭‌‮‬⁬⁯‫⁬‭⁬‪⁭‏‪‮(), \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202D⁪‬‎‏‭⁯‫‬⁯⁫⁮⁫⁮‎​⁮⁭⁭‬‫‬‫⁯⁪‮⁬‌‫⁭‬⁭⁮‌‪‪‭‎⁮‬‮((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮));
+          return;
+      }
+    }
+    this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u200F⁬‭⁮‫‫‬​‍​⁭‬⁯‌⁯‭‎​‭⁪⁮‮‭‫⁮​⁪‪⁯⁬‮⁬‎⁮⁮⁪‬⁮⁪‮‮(this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮.\u202C‌‮‏‏‌⁪‌‫⁯⁯⁯‮‍‎⁭‍‭⁯​⁬‏‮‫‬⁭‌‮‬⁬⁯‫⁬‭⁬‪⁭‏‪‮());
+  }
+
+  bool ContainerControl.\u200D‪‏⁪‭‬‬‪‭‌⁫⁮‎⁭‎⁮⁯⁮‏⁬‭‪‪⁬⁮⁮‪⁪‎⁪‪⁬⁮⁪‌​‏⁪‏‏‮(
+    ref Message _param1,
+    Keys _param2)
+  {
+    if (\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E​‮⁪‮‏⁬⁭‏‪​⁪‏‎‎‬‮⁪‫‎⁮‌‫‍‎‭​‍⁮⁪‌‍‭‍⁪‪‪‪​‬‮((Control) this) != null)
+      goto label_12;
+label_1:
+    int num1 = -793043079;
+label_2:
+    while (true)
+    {
+      uint num2;
+      switch ((num2 = (uint) (num1 ^ -1522303807)) % 17U)
+      {
+        case 0:
+label_16:
+          this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u200E⁯‮‬​‌⁯‮⁭‮‪⁭‏⁬⁮​⁭‌⁮‏‌‍⁫‎⁫‏‭‭‪‪⁪⁪‮⁪‌⁮‍‍⁪‪‮();
+          num1 = -1819401355;
+          continue;
+        case 1:
+          switch (_param2)
+          {
+            case Keys.N | Keys.Control:
+              goto label_16;
+            case Keys.O | Keys.Control:
+              goto label_18;
+            case Keys.P | Keys.Control:
+            case Keys.Q | Keys.Control:
+            case Keys.R | Keys.Control:
+              goto label_19;
+            case Keys.S | Keys.Control:
+              goto label_15;
+            case Keys.T | Keys.Control:
+              goto label_9;
+            default:
+              num1 = (int) num2 * 296927155 ^ 801751905;
+              continue;
+          }
+        case 2:
+          goto label_11;
+        case 3:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E‮‏⁭⁪‌‪‍⁭‏‌⁯‭⁪⁬‏‮⁭⁮‍⁯‍‏‍⁪‌⁯⁪⁫‪⁯⁮⁭⁯‭⁬‪​‏‌‮(this.\u202B‫⁬‬⁬‎⁭‬⁪‏⁪​⁫‎⁮‎⁪‮⁭‭‫‪⁭⁫​‮⁭‏‍⁫⁬⁬‭⁬⁭‬‫‎⁭‌‮);
+          num1 = (int) num2 * -1431843798 ^ 681466638;
+          continue;
+        case 4:
+          goto label_9;
+        case 5:
+          int num3;
+          num1 = num3 = !\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁯‬‍‎⁭‬‮⁫⁫‪​⁭⁬‌⁫‎‎‪‎⁪‎⁯‪⁯⁪⁫⁬⁮⁫‎‮⁯⁮⁫⁯‎‎⁭⁪‮(this.\u202B‫⁬‬⁬‎⁭‬⁪‏⁪​⁫‎⁮‎⁪‮⁭‭‫‪⁭⁫​‮⁭‏‍⁫⁬⁬‭⁬⁭‬‫‎⁭‌‮) ? -153785643 : (num3 = -673328058);
+          continue;
+        case 6:
+          goto label_1;
+        case 7:
+          goto label_3;
+        case 8:
+          goto label_15;
+        case 9:
+          goto label_6;
+        case 10:
+          goto label_12;
+        case 11:
+label_18:
+          this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u200E⁬‏‬‌‍‌⁬⁫⁫‪‫‍‌⁬⁪⁮⁯‍‪⁪‫⁯⁪⁬‏‌⁪‪‍⁭⁮‮‮‍‭⁯‪‌‮();
+          num1 = -1340059823;
+          continue;
+        case 12:
+          goto label_10;
+        case 14:
+          goto label_7;
+        case 15:
+          num1 = (int) num2 * 1576059768 ^ 2103337136;
+          continue;
+        case 16:
+          int num4 = _param2 == (Keys.I | Keys.Control) ? -1750033236 : (num4 = -1742924234);
+          num1 = num4 ^ (int) num2 * 1594246814;
+          continue;
+        default:
+          goto label_19;
+      }
+    }
+label_3:
+    return true;
+label_6:
+    return true;
+label_7:
+    return true;
+label_9:
+    this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u206E⁫⁮‬‪⁪​‫‎‏‎‮‏⁬‌‪⁯‭⁭‬‎‌⁫⁯⁮‌‫​⁮‪⁬‌​‮‫‫‭⁮‫‫‮(true);
+    return true;
+label_10:
+    this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u202D⁪⁭‭⁫⁮⁮⁬‎⁯​‎⁭​‍⁭⁮‮⁬‭⁯⁪⁬⁫⁪‫⁬‍‫‭‭​‬‬‌‭‏‫⁪⁫‮();
+    return true;
+label_11:
+    // ISSUE: explicit non-virtual call
+    return __nonvirtual (((ContainerControl) this).ProcessCmdKey(ref _param1, _param2));
+label_15:
+    this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u206C​‮⁮‏‬‌‏⁫⁫⁯‏⁯‏⁪⁯‏‍‫⁪⁯⁭‬⁭‍​⁬‪‎‫‌⁬⁭‫​‮⁬‎‏⁫‮(true);
+    return true;
+label_19:
+    // ISSUE: explicit non-virtual call
+    return __nonvirtual (((ContainerControl) this).ProcessCmdKey(ref _param1, _param2));
+label_12:
+    num1 = _param2 == (Keys.E | Keys.Control) ? -2056757545 : (num1 = -1754139066);
+    goto label_2;
+  }
+
+  private void \u206D‎‏‪⁭​‮‮⁯‭‬​‍‪⁮⁬⁭‮‍‫⁫‍‫‎‍‮‭⁯‏‎‪⁪​‮‍‪‭‪⁪‬‮(
+    object _param1,
+    TileItemEventArgs _param2)
+  {
+    this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u202D⁪⁭‭⁫⁮⁮⁬‎⁯​‎⁭​‍⁭⁮‮⁬‭⁯⁪⁬⁫⁪‫⁬‍‫‭‭​‬‬‌‭‏‫⁪⁫‮();
+  }
+
+  private void \u202E⁯‭‮⁪⁬⁫⁭‍‭⁮‪‍⁭⁬‪‏⁬‮⁮‪‬‏‪‮‌⁬‎‪‫‭‮‬⁮⁬⁯⁭‎‮⁮‮(
+    object _param1,
+    TileItemEventArgs _param2)
+  {
+    if (\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁯‬‍‎⁭‬‮⁫⁫‪​⁭⁬‌⁫‎‎‪‎⁪‎⁯‪⁯⁪⁫⁬⁮⁫‎‮⁯⁮⁫⁯‎‎⁭⁪‮(this.\u202B‫⁬‬⁬‎⁭‬⁪‏⁪​⁫‎⁮‎⁪‮⁭‭‫‪⁭⁫​‮⁭‏‍⁫⁬⁬‭⁬⁭‬‫‎⁭‌‮))
+      return;
+label_1:
+    int num1 = -628322039;
+    while (true)
+    {
+      uint num2;
+      switch ((num2 = (uint) (num1 ^ -255270386)) % 3U)
+      {
+        case 0:
+          goto label_5;
+        case 1:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E‮‏⁭⁪‌‪‍⁭‏‌⁯‭⁪⁬‏‮⁭⁮‍⁯‍‏‍⁪‌⁯⁪⁫‪⁯⁮⁭⁯‭⁬‪​‏‌‮(this.\u202B‫⁬‬⁬‎⁭‬⁪‏⁪​⁫‎⁮‎⁪‮⁭‭‫‪⁭⁫​‮⁭‏‍⁫⁬⁬‭⁬⁭‬‫‎⁭‌‮);
+          num1 = (int) num2 * -789338509 ^ -1985388304;
+          continue;
+        case 2:
+          goto label_1;
+        default:
+          goto label_6;
+      }
+    }
+label_5:
+    return;
+label_6:;
+  }
+
+  private void \u206C​‮⁪⁭‪‪‪‪⁪⁯‍⁪⁬‍‎⁪⁬‬‎‫‍⁬‮​‫⁪⁫‍​‌‍⁮⁬⁭‎​⁯‪‏‮(object _param1, EventArgs _param2)
+  {
+    try
+    {
+      \u206D⁬⁬‍‮⁪‫⁬‌⁯‬‏​‭‪⁬‏‬‬‍‪⁯⁪⁫‎⁯‬‏⁮​‭⁭⁯‭‮‫⁪⁯‍‭‮.\u206D‮⁬⁪‮‍⁯⁭‌⁭‍‪‌⁯‭‎⁬‎‮⁬​⁮‫⁯‬‬⁬‌⁮⁯⁭‌‬‭‫‫⁫⁬‮‪‮();
+label_1:
+      int num1 = -2104008683;
+      while (true)
+      {
+        uint num2;
+        switch ((num2 = (uint) (num1 ^ -40221329)) % 3U)
+        {
+          case 0:
+            goto label_1;
+          case 2:
+            \u206D⁬⁬‍‮⁪‫⁬‌⁯‬‏​‭‪⁬‏‬‬‍‪⁯⁪⁫‎⁯‬‏⁮​‭⁭⁯‭‮‫⁪⁯‍‭‮.\u202A‪‫⁫‍⁯‎⁭⁫‏‍‪‌‪‪⁫‬⁮⁫‏‬‎⁯⁯⁮‬‍⁯‍‎⁭‪⁪​⁪‎⁪⁮⁫⁬‮().\u206D⁯‌‌‪⁯⁮​​⁬‍⁫⁭‭‏‎‪⁫⁫⁫⁬‫⁪‫⁯‏‬‎⁪⁯‎⁪⁯‏⁯‌‫⁭‫⁫‮();
+            num1 = (int) num2 * 1518252796 ^ 1125543445;
+            continue;
+          default:
+            goto label_5;
+        }
+      }
+label_5:
+      \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202E‫‎‫​‎⁪‮‫​‪‪‏‏⁬‎⁬⁭​‪‍⁬‫⁯‌⁯⁪‍‎‬‬⁫⁭‎⁬⁯‫⁫⁬‌‮((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮, this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u202A‍‬‪⁪​‍‍⁬⁬‏‪⁯‫‪⁮‫‭‏‎⁫⁫⁭⁫‍⁬‎⁪‎‫‬‌⁯‍⁯⁮⁮⁬‍‭‮());
+    }
+    catch (\u206B‏‬‍⁮‪‎‬‮‮⁬‬⁯‭⁫⁯⁯‍⁭⁪⁪‌​⁬‫‪‮⁮‭⁫‌‌⁫‭⁮‬​⁮‮‭‮ ex)
+    {
+      int num = (int) \u206B‌‫⁪⁮‮‎‭⁭‍⁫‭‫‎⁪‌‭⁮‮‍‪​⁯⁭⁭⁫⁯‍⁭⁫‌‮⁭⁮‏‌⁫‪‫‫‮.\u206D‪⁯‫‍⁫‬‏‭‎‌‏⁪‎‏‮‌‌‫⁮⁭‍‬‪‭‍⁫‭⁯‌‏⁯⁭⁫⁭⁫⁮‬​‫‮((Form) this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮, ex.\u202D‭‫⁭⁯⁪‬⁯‫‮‏‮‌⁫⁯‍⁭⁪‎⁫‬‬‏⁬⁯⁮‪⁪‫⁪⁫⁪‎‏‌⁬‮‎‌⁯‮(), ex.\u200E‏⁫⁪‎‭‭‫⁫‮‮⁯‫​‬‮⁫‭⁫⁫⁯‬‬‎‮⁫⁬⁭⁬⁭‫‌⁯⁪‍‮‌⁭‎⁪‮(), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+    }
+    catch (Exception ex)
+    {
+label_8:
+      int num1 = -256781358;
+      while (true)
+      {
+        uint num2;
+        switch ((num2 = (uint) (num1 ^ -40221329)) % 3U)
+        {
+          case 0:
+            goto label_8;
+          case 1:
+            goto label_3;
+          case 2:
+            int num3 = (int) \u206B‌‫⁪⁮‮‎‭⁭‍⁫‭‫‎⁪‌‭⁮‮‍‪​⁯⁭⁭⁫⁯‍⁭⁫‌‮⁭⁮‏‌⁫‪‫‫‮.\u206D‪⁯‫‍⁫‬‏‭‎‌‏⁪‎‏‮‌‌‫⁮⁭‍‬‪‭‍⁫‭⁯‌‏⁯⁭⁫⁭⁫⁮‬​‫‮((Form) this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮, \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202E⁮⁫‭⁫‬‫⁪‏‮‍‭‌⁯⁪⁭⁮‍⁪‭‪⁭‭‫‎⁬‎⁬‬⁮‏‬⁯⁯‏‫⁬​⁯‬‮(ex), \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(3045456489U), MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            num1 = (int) num2 * -341691833 ^ -1980573457;
+            continue;
+          default:
+            goto label_11;
+        }
+      }
+label_3:
+      return;
+label_11:;
+    }
+  }
+
+  private void \u200B‫‏⁭⁯‮⁫‭‏⁫‬⁭⁮⁮‭‬‮⁫⁪⁮‍⁫‪⁫‪⁬⁯‍‏‭‮⁫‌⁯⁬‌‬‪⁯⁮‮(object _param1, EventArgs _param2)
+  {
+    if (\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E​‮⁪‮‏⁬⁭‏‪​⁪‏‎‎‬‮⁪‫‎⁮‌‫‍‎‭​‍⁮⁪‌‍‭‍⁪‪‪‪​‬‮((Control) this) != null)
+    {
+label_1:
+      int num1 = 169658674;
+      while (true)
+      {
+        uint num2;
+        switch ((num2 = (uint) (num1 ^ 1356232783)) % 4U)
+        {
+          case 1:
+            \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206A⁮⁪‌‫‎⁫‭‫⁮⁬‍‮‏‭⁮‫‪‫​‎‎⁭⁫⁪‭⁭‌⁬‭⁯‭​‭‎⁮⁯‪‭‎‮((Control) this);
+            \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D‎⁪‌⁯⁪‏‫‌‪⁮⁫‫‎‮⁬‍‪⁯‏‮⁫⁬‪‬‬‫‭⁭⁯⁯​‭‏⁫‎‭‌‬‬‮(this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮, true);
+            num1 = (int) num2 * -412351721 ^ 1530729631;
+            continue;
+          case 2:
+            goto label_1;
+          case 3:
+            goto label_3;
+          default:
+            goto label_5;
+        }
+      }
+label_3:
+      return;
+    }
+label_5:
+    this.\u200C⁯‍‍⁮‭⁮⁪‏‫‮‮⁭⁬‌⁫⁮‏‌‌⁫⁮‮‪⁬‍⁪‭⁯⁪‎⁮⁯⁪‮⁪‏​‍‏‮.\u202B⁫‭‫‭‫‫‭‎‎⁪‫⁭‮‫‏‫​⁪‭‫‪‌⁬⁮‮‎⁬⁫‮‬⁮‎⁮‪‪‫‮‫‎‮();
+  }
+
+  internal AccordionControlElement \u206C⁫⁮‍‏⁭‭‮⁬⁪⁪⁬​⁯⁯⁬⁯‪⁪⁫‌‬‫‬⁯‭⁯‪⁫‌⁮‏‬‫‌‪⁬⁮‫‬‮()
+  {
+    return this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮;
+  }
+
+  internal AccordionControlElement \u200C‫‮‌‏‭⁫‎‫‪⁫‮‮‏⁮⁯⁯⁭‭​‭‏⁬‎⁫‍⁪⁯‍‍‪⁮‍⁯‬⁮‎⁭⁮‫‮()
+  {
+    return this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮;
+  }
+
+  internal AccordionControlElement \u200B‪‎‫‪‫⁪‌⁬⁭⁬‮⁬‌‬‭⁮‭⁯‏‪​⁬⁮‮‮​⁯‮‏‍‫⁫‭‫‌‏‍‮‌‮()
+  {
+    return this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮;
+  }
+
+  internal AccordionControlElement \u202C⁯⁫‎‪‭⁭⁫‎‬‎‌⁬‎⁮⁭‫⁮⁬⁭​⁬​⁬‭⁬‬‏‪‭⁯‫⁭⁭‌⁫‭⁫‮‍‮()
+  {
+    return this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮;
+  }
+
+  internal XtraTabControl \u206D⁫⁭⁭‮‏⁭‪‏‎⁪‬‏⁪⁯⁭‎⁬⁬‎‏‪‭‭⁯‍‏‍⁭⁮⁫‭‮⁪⁫‌​‫‬‮‮()
+  {
+    return this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮;
+  }
+
+  internal AccordionControl \u200E​‪​⁬⁯⁬​‏‭⁭‪‍‏⁬‫⁫⁭‍‌⁭‎‭⁯​‏​‪‭‮‏⁭‭⁯‌‎‍​‮⁯‮()
+  {
+    return this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮;
+  }
+
+  internal TreeList \u206D⁬⁭‎‏‮‮⁫⁯‍‏‪⁬‫⁫⁬‏‏‮‪‪‮⁬⁮​‭‍⁯‮‬‫‪​‫⁪⁯⁪⁪‎‍‮()
+  {
+    return this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮;
+  }
+
+  internal PopupMenu \u206C‪‪​‪⁪⁯⁬⁮⁬‭‬‍‫‪‮‍​​⁯⁭‪‪‏‍⁪⁯‌⁬‍‬⁮‪​‪‏‮‏⁪⁭‮()
+  {
+    return this.\u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮;
+  }
+
+  internal RepositoryItemTextEdit \u200B⁬‌‮‫‏‭⁬‫⁭⁪⁫⁫​‌‌‏⁮​‪‫‎‬‬⁪‪‎⁪‬​⁪⁭‏​⁪‫​⁫⁪‪‮()
+  {
+    return this.\u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮;
+  }
+
+  internal BarButtonItem \u206D‌‪‪‮⁬⁪‍‏⁬⁫‏⁯⁬⁯‏⁫⁫​⁬‏⁮‬‬‏⁪‭‫​‎‮⁯⁯​‌‎⁯‭‌‌‮()
+  {
+    return this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮;
+  }
+
+  internal BarButtonItem \u200D‎‎‭⁭⁪⁬⁭‬‪⁪‮⁯‍⁯⁮⁫‍⁫‪​‫⁯⁮‬⁯⁮‪‌⁬⁮​‬‌‌⁫⁮⁬⁫⁭‮()
+  {
+    return this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮;
+  }
+
+  internal BarButtonItem \u200B‍⁮‪⁫‬‎‏‫⁫⁬‍⁫‎⁫‭‎‌‮⁪‭⁫⁮⁭‍‮⁫‭‌⁯‎‭⁪⁭⁭‎⁭⁪‍‮()
+  {
+    return this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮;
+  }
+
+  internal BarButtonItem \u202C‬⁬⁬⁬⁭‬‎⁭‬⁪⁮⁯⁫‌‎⁯⁫‫‍⁭⁮⁪‭​‬‬‮‪‪‍‏‍‮‎‎‮​‪‮‮()
+  {
+    return this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮;
+  }
+
+  internal LabelControl \u202C‪‎‌‭‭⁬‫‮‭⁭‮‏‏‍⁬⁯‭⁮⁮‬‍‫‪‪⁫‎‍‮⁬⁮‍‪‪‏⁮‪‭⁭⁮‮()
+  {
+    return this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮;
+  }
+
+  internal LabelControl \u206C​​‍‬‎⁮​‎‍‏⁯⁯‏​‏⁬‏‪⁯‍⁭⁯‌‏‎‍‏‬‬⁯‍​⁪⁫‌‮​⁬‪‮()
+  {
+    return this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮;
+  }
+
+  internal tx\u005D\u005D\u007DMYQ\u0029E2z\u0023\u002B\u003AUN_3V\u007C\u0024z\u003E \u200E‮‭‎⁮‎‎‍‌‏‌‬‎‎‮⁬⁫‫‌⁬‍‮⁭⁫⁫‍‏‭‬‭‫‍⁯‏⁫‎‬‭⁬‬‮()
+  {
+    return this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮;
+  }
+
+  private void \u202C‎⁭‏⁯‫‬⁭‌⁬‏‎⁯⁯‎‪⁭‮⁮⁮‍‮‬⁮⁬⁮⁫‪‎⁫‎‍⁮‮‍⁮⁪‬‪⁯‮(object _param1, EventArgs _param2)
+  {
+    Control control = (Control) _param1;
+    if (this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮ != null)
+      goto label_5;
+label_1:
+    int num1 = -1685916703;
+label_2:
+    uint num2;
+    switch ((num2 = (uint) (num1 ^ -1215146468)) % 4U)
+    {
+      case 0:
+        break;
+      case 1:
+        return;
+      case 2:
+        goto label_1;
+      case 3:
+        return;
+      default:
+        return;
+    }
+label_5:
+    int width = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200F⁯⁮⁭‏‮⁪‮‭⁬‬‫⁬⁫⁯⁫⁪⁪⁯⁯⁯⁫‌⁫‌⁭⁫‫⁯‍⁪⁫⁪⁮‏‫‏⁬⁮‎‮((Control) this.\u206E​⁭‌⁬‫‬‌⁭‮‭‮‪⁫‍‌‎⁬⁪⁬​⁪⁫‮‏⁮‬⁯⁭⁬‌‏‪⁭‭‏​‫⁯⁪‮) / 4;
+    control.Size = new Size(width, \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202E‎⁭‮‪⁭‎⁭​⁮⁯⁮⁯​⁫‬​‮‮‪⁪‎⁯‮‬‍‫‍⁬‌‬⁯‌⁪⁫⁬‫⁬⁯⁪‮(control).Height);
+    num1 = -1969506841;
+    goto label_2;
+  }
+
+  private void \u200E⁮‫​‍‍‎⁯⁭‌‏‏‭⁮‏⁮⁫‬‎⁬‫‎‫‮‏‏‏​⁭⁮‪⁮‌‫‭⁮⁯⁬⁭‮(object _param1, KeyEventArgs _param2)
+  {
+    \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200B‎‬‬‌‮⁪⁯‏‭‌‫‮‫⁪‫⁬⁯‫‍‏‫⁯‎‍⁫⁮​‍⁮‍‫‍⁯⁪‪‬‍‌⁭‮(_param2, true);
+  }
+
+  void XtraUserControl.\u206E‍​‪‪⁪⁯⁪⁬‎⁯⁬⁪‭‫‭‍‫‎‪⁯⁯‎‭‭‏‪‮⁮‪‪‌‍​⁬⁯‎⁮‎‭‮(bool _param1)
+  {
+    if (_param1)
+    {
+label_1:
+      int num1 = -1030805192;
+      while (true)
+      {
+        uint num2;
+        switch ((num2 = (uint) (num1 ^ -560292343)) % 4U)
+        {
+          case 0:
+            goto label_1;
+          case 1:
+            int num3 = this.\u206B⁫‪‍⁬⁪⁪⁫⁫⁫‬​​‬⁭⁮⁭‍‪‏⁮‎⁫‌⁭‏‏‮​​‍⁯‌‍‮‍‭‪⁫⁬‮ != null ? -1105016878 : (num3 = -1796940153);
+            num1 = num3 ^ (int) num2 * 144213100;
+            continue;
+          case 3:
+            \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200C‬‬‍⁬⁭‬‮‎‪‪⁪‌‫‮‏‍‍‭‭⁬‍‫‌‌‌⁪‪‎⁮​⁪⁬‪‌‎⁮⁮⁮‫‮((IDisposable) this.\u206B⁫‪‍⁬⁪⁪⁫⁫⁫‬​​‬⁭⁮⁭‍‪‏⁮‎⁫‌⁭‏‏‮​​‍⁯‌‍‮‍‭‪⁫⁬‮);
+            num1 = (int) num2 * -209238896 ^ 866057435;
+            continue;
+          default:
+            goto label_5;
+        }
+      }
+    }
+label_5:
+    // ISSUE: explicit non-virtual call
+    __nonvirtual (((XtraUserControl) this).Dispose(_param1));
+  }
+
+  private void \u202E‬⁫​‪⁪⁭⁬‍⁬‮‍⁭⁬‎⁪‮‫⁮‍‪​⁬‍‬‮‎‭‭⁯‪‮⁭⁪‮​⁯⁮‬⁭‮()
+  {
+    this.\u206B⁫‪‍⁬⁪⁪⁫⁫⁫‬​​‬⁭⁮⁭‍‪‏⁮‎⁫‌⁭‏‏‮​​‍⁯‌‍‮‍‭‪⁫⁬‮ = (IContainer) \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200C⁬⁯‎‭⁭‭‌‍‌‪⁭⁮‭​‍‭⁭‏‭⁫​‌⁪​‬‫‌‫⁬⁪‫‫⁯‏‪‭‌‫‪‮();
+    // ISSUE: type reference
+    ComponentResourceManager componentResourceManager = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202C⁫‮‏⁬‮⁮‬‫‎⁬‍‎⁫‬⁮⁫‫‮​‪‏​⁭‮​⁮‏​‍‬‎⁬⁪⁬‬‏‬‌‫‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E⁮‮‏⁫‮‍‬‏⁯⁭‭⁭‪⁯‬‍‬​⁯‎‪‬‪⁬⁮‬‏‪⁯‮‮‌‫​‌⁬‎‭‮‮(__typeref (\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025)));
+    AccordionContextButton accordionContextButton1 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+label_1:
+    int num1 = 1852552689;
+    TileItemElement element1;
+    AccordionContextButton accordionContextButton2;
+    AccordionContextButton accordionContextButton3;
+    AccordionContextButton accordionContextButton4;
+    AccordionContextButton accordionContextButton5;
+    TileItemElement element2;
+    TileItemElement element3;
+    TileItemElement element4;
+    AccordionContextButton accordionContextButton6;
+    AccordionContextButton accordionContextButton7;
+    TileItemElement element5;
+    AccordionContextButton accordionContextButton8;
+    TileItemElement element6;
+    while (true)
+    {
+      uint num2;
+      switch ((num2 = (uint) (num1 ^ 360389572)) % 414U)
+      {
+        case 0:
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 13.8f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
+          num1 = (int) num2 * 1472503073 ^ 410936996;
+          continue;
+        case 1:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemInMenuAppearance.Hovered.Options.UseForeColor = true;
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemInMenuAppearance.Normal.ForeColor = Color.White;
+          num1 = (int) num2 * -1970001724 ^ 148945243;
+          continue;
+        case 2:
+          this.\u206B⁭‬​‭‏‭⁫‌⁮‭‌⁫‫‍⁪‍⁪⁭⁪‭‬⁯‫‬‏⁬⁭‏‭⁭⁮‪‪⁮‫‮⁬‌‮.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(1880985058U);
+          num1 = (int) num2 * -1764958327 ^ -1496116530;
+          continue;
+        case 3:
+          element4.ImageOptions.ImageAlignment = TileItemContentAlignment.MiddleCenter;
+          num1 = (int) num2 * 1968232111 ^ 595970168;
+          continue;
+        case 4:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Padding = new Padding(9, 0, 0, 0);
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Size = new Size(347, 35);
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.TabIndex = 22;
+          num1 = (int) num2 * 1522675882 ^ 1405605998;
+          continue;
+        case 5:
+          this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮.TransparentColor = Color.Transparent;
+          num1 = (int) num2 * 1547223407 ^ 1319403454;
+          continue;
+        case 6:
+          accordionContextButton1.AlignmentOptions.Panel = ContextItemPanel.Center;
+          accordionContextButton1.AlignmentOptions.Position = ContextItemPosition.Far;
+          accordionContextButton1.Id = new Guid(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(3761109301U));
+          accordionContextButton1.ImageOptions.Image = (Image) \u0020\u003FY\u003Dy\u005ERd\u0029Ls0.\u206C‏‭‏⁪‍‮‍‍‪‍‌‪‪⁯⁭⁪‎‭‭‭‌‮‍⁭⁪⁯​‏‌‍‏‬‭‪‬‏‬​‌‮;
+          num1 = (int) num2 * 1655247813 ^ -1718442503;
+          continue;
+        case 7:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(221687645U));
+          num1 = (int) num2 * -1847594669 ^ 943303233;
+          continue;
+        case 8:
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.AllowDrag = false;
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.AllowDragTilesBetweenGroups = false;
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.AllowItemHover = true;
+          num1 = (int) num2 * 442347013 ^ -38148747;
+          continue;
+        case 9:
+          accordionContextButton6.Id = new Guid(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(3620796574U));
+          num1 = (int) num2 * -338374955 ^ -2099919901;
+          continue;
+        case 10:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Name = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1804893405U);
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Style = ElementStyle.Item;
+          num1 = (int) num2 * -1707086548 ^ -2022953972;
+          continue;
+        case 11:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.TreeLevelWidth = 25;
+          num1 = (int) num2 * -207355769 ^ 1314996568;
+          continue;
+        case 12:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.TabIndex = 21;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.FocusedCell.ForeColor = Color.FromArgb(218, 218, 218);
+          num1 = (int) num2 * 1013923341 ^ 208220244;
+          continue;
+        case 13:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * 1326705518 ^ -1427113085;
+          continue;
+        case 14:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Name = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(1813190009U);
+          num1 = (int) num2 * -1242756725 ^ -211157785;
+          continue;
+        case 15:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemAppearance.Normal.ForeColor = Color.White;
+          num1 = (int) num2 * -1006181455 ^ 2027072693;
+          continue;
+        case 16:
+          accordionContextButton8.AlignmentOptions.Panel = ContextItemPanel.Center;
+          num1 = (int) num2 * -401425230 ^ 949946452;
+          continue;
+        case 17:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.LookAndFeel.UseDefaultLookAndFeel = false;
+          num1 = (int) num2 * -318486615 ^ -1966658179;
+          continue;
+        case 18:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.Options.UseBorderColor = true;
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.Options.UseFont = true;
+          num1 = (int) num2 * 2104935766 ^ 546202242;
+          continue;
+        case 19:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Hovered.Font = new Font(\u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(3730779744U), 12f);
+          num1 = (int) num2 * 287577082 ^ 191689223;
+          continue;
+        case 20:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsBehavior.ShowToolTips = false;
+          num1 = (int) num2 * -931613357 ^ 1258028788;
+          continue;
+        case 21:
+          this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮.Dock = DockStyle.Bottom;
+          num1 = (int) num2 * 703752661 ^ 31976993;
+          continue;
+        case 22:
+          accordionContextButton3.AlignmentOptions.Position = ContextItemPosition.Far;
+          num1 = (int) num2 * 84672780 ^ 392709360;
+          continue;
+        case 23:
+          this.\u206B⁭‬​‭‏‭⁫‌⁮‭‌⁫‫‍⁪‍⁪⁭⁪‭‬⁯‫‬‏⁬⁭‏‭⁭⁮‪‪⁮‫‮⁬‌‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‮‎‍⁯⁯⁬⁭‎‪‫⁮‮⁯‭⁭‬⁭⁭‫‭‎‭‮‏‌⁬‭⁪⁭‮⁯​⁪⁬⁭⁯‏​‭‮();
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‌‪⁬‌‎‭⁪⁬‫⁯‫‍⁬⁮‫‎​⁬⁪‍⁯‎‬‫‌⁭⁬‪⁪​⁫‬‮‎‎⁯‫⁯‎‮();
+          num1 = (int) num2 * 1641288008 ^ -1293151510;
+          continue;
+        case 24:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.SelectImageList = (object) this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Size = new Size(347, 323);
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.TabIndex = 20;
+          num1 = (int) num2 * 291585695 ^ -1153414897;
+          continue;
+        case 25:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemInMenuAppearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * 555057620 ^ -239391650;
+          continue;
+        case 26:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.MenuManager = (IDXMenuManager) this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮;
+          num1 = (int) num2 * 1404656474 ^ -1198690746;
+          continue;
+        case 27:
+          accordionContextButton7.Name = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(96165015U);
+          num1 = (int) num2 * -1967392971 ^ 50292846;
+          continue;
+        case 28:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Normal.BackColor = Color.FromArgb(37, 37, 37);
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Normal.Options.UseBackColor = true;
+          num1 = (int) num2 * -2055547286 ^ -689737980;
+          continue;
+        case 29:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.Options.UseFont = true;
+          num1 = (int) num2 * 485631728 ^ 1018906298;
+          continue;
+        case 30:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsCustomization.AllowFilter = false;
+          num1 = (int) num2 * 90369087 ^ 362632047;
+          continue;
+        case 31:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.ScrollBarMode = ScrollBarMode.Hidden;
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Size = new Size(347, 91);
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.TabIndex = 16;
+          num1 = (int) num2 * -137947077 ^ 853267524;
+          continue;
+        case 32:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * -549166218 ^ -1600340112;
+          continue;
+        case 33:
+          accordionContextButton7.AlignmentOptions.Panel = ContextItemPanel.Center;
+          num1 = (int) num2 * 713808296 ^ -29651350;
+          continue;
+        case 34:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.Options.UseBorderColor = true;
+          num1 = (int) num2 * 2050314506 ^ -919803958;
+          continue;
+        case 35:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮((ISupportInitialize) this.\u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮((ISupportInitialize) this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮);
+          num1 = (int) num2 * -1881709905 ^ -585291478;
+          continue;
+        case 36:
+          accordionContextButton5.AppearanceHover.Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 9f);
+          accordionContextButton5.AppearanceHover.Options.UseFont = true;
+          accordionContextButton5.AppearanceNormal.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 9f);
+          num1 = (int) num2 * -1340513160 ^ 1403100023;
+          continue;
+        case 37:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.Name = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(2067801518U);
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.TextShowMode = TileItemContentShowMode.Hover;
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.ItemClick += new TileItemClickEventHandler(this.\u202E⁯‭‮⁪⁬⁫⁭‍‭⁮‪‍⁭⁬‪‏⁬‮⁮‪‬‏‪‮‌⁬‎‪‫‭‮‬⁮⁬⁯⁭‎‮⁮‮);
+          num1 = (int) num2 * -668880845 ^ 1517875621;
+          continue;
+        case 38:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Controls.Add((Control) this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮);
+          num1 = (int) num2 * -1213564888 ^ -866843610;
+          continue;
+        case 39:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200F‌⁮⁭‎‌‪‏‌‏⁮‮⁬⁪⁯‮⁮‌‪‬⁪​‏‏‏⁮‮‏⁫‏‬⁮‍‏‎⁪⁪‍‮‫‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮, ClosePageButtonShowMode.InAllTabPageHeaders);
+          num1 = (int) num2 * -642189634 ^ 1887435364;
+          continue;
+        case 40:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.Options.UseBorderColor = true;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.Options.UseFont = true;
+          num1 = (int) num2 * 997505805 ^ 1941876406;
+          continue;
+        case 41:
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.LookAndFeel.SkinName = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(399216275U);
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.LookAndFeel.UseDefaultLookAndFeel = false;
+          num1 = (int) num2 * -2101609415 ^ -1487636361;
+          continue;
+        case 42:
+          accordionContextButton6 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+          accordionContextButton3 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+          num1 = (int) num2 * 1949232833 ^ 153961372;
+          continue;
+        case 43:
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.Form = (Control) this;
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.Items.AddRange(new BarItem[4]
+          {
+            (BarItem) this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮,
+            (BarItem) this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮,
+            (BarItem) this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮,
+            (BarItem) this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮
+          });
+          num1 = (int) num2 * -1517026529 ^ 1909043805;
+          continue;
+        case 44:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemAppearance.Pressed.ForeColor = Color.White;
+          num1 = (int) num2 * -420417508 ^ 759421011;
+          continue;
+        case 45:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsView.ShowVertLines = false;
+          num1 = (int) num2 * -1561384014 ^ -453645038;
+          continue;
+        case 46:
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.Elements.Add(element4);
+          num1 = (int) num2 * -1432438562 ^ 414080683;
+          continue;
+        case 47:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.Id = 7;
+          num1 = (int) num2 * 590504385 ^ 757436974;
+          continue;
+        case 48:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.AllowResize = false;
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.AllowSnap = false;
+          num1 = (int) num2 * -1501969957 ^ 1469657111;
+          continue;
+        case 49:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.Options.UseBackColor = true;
+          num1 = (int) num2 * 1280476073 ^ 1953476339;
+          continue;
+        case 50:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮((ISupportInitialize) this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮);
+          num1 = (int) num2 * -1039723349 ^ -661260443;
+          continue;
+        case 51:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Appearance.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 9f);
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Appearance.ForeColor = Color.White;
+          num1 = (int) num2 * 1333593100 ^ -876018711;
+          continue;
+        case 52:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsBehavior.AllowExpandAnimation = DefaultBoolean.False;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsBehavior.CloseEditorOnLostFocus = false;
+          num1 = (int) num2 * 1992179861 ^ 1389533382;
+          continue;
+        case 53:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * 907761401 ^ -268740125;
+          continue;
+        case 54:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.Options.UseBackColor = true;
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.Options.UseBorderColor = true;
+          num1 = (int) num2 * 1317001600 ^ -599190833;
+          continue;
+        case 55:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemInMenuAppearance.Pressed.ForeColor = Color.White;
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemInMenuAppearance.Pressed.Options.UseForeColor = true;
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.Name = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1802890317U);
+          num1 = (int) num2 * -1102528735 ^ -1609059030;
+          continue;
+        case 56:
+          this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮.Location = new Point(0, 669);
+          this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮.Manager = this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮;
+          num1 = (int) num2 * 591947609 ^ 1879091962;
+          continue;
+        case 57:
+          this.\u200E⁪⁯​‭‪⁯⁫‫‌⁮‭‪‎‪⁯‬‏‍⁪​‏‎⁮‮‬⁮‬‭‬‎‫‎⁯⁮‏​‬‫‏‮.Items.Add((ITileItem) this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮);
+          num1 = (int) num2 * -1593818490 ^ 744516603;
+          continue;
+        case 58:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Pressed.Options.UseForeColor = true;
+          num1 = (int) num2 * 1566757589 ^ 1411654158;
+          continue;
+        case 59:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202A‌‬‏⁮⁮‌‭‏⁮⁬‭⁮​⁪⁫‎‪‍​‏​‭⁮⁬‬‪‪⁬‪‫‬‮‌⁪‬⁮‮‌⁬‮();
+          num1 = (int) num2 * 1341386218 ^ 517752085;
+          continue;
+        case 60:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.ForeColor = Color.DimGray;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.Options.UseBackColor = true;
+          num1 = (int) num2 * -1953423996 ^ 956582295;
+          continue;
+        case 61:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 10f);
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.ForeColor = Color.DimGray;
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.Options.UseBackColor = true;
+          num1 = (int) num2 * 2124931578 ^ 664173218;
+          continue;
+        case 62:
+          accordionContextButton3.ImageOptions.Image = (Image) \u0020\u003FY\u003Dy\u005ERd\u0029Ls0.\u202E‫⁯​‍‪‍⁭​⁬⁫⁫‍‭‪‪‮⁬‪‌⁮‍⁫​⁬⁫⁭‏‮‍‎‬‬‭‬⁬‭‪‪‭‮;
+          accordionContextButton3.Name = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(600771144U);
+          num1 = (int) num2 * 385797003 ^ 1916705488;
+          continue;
+        case 63:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202A⁯⁪‮‪‍‪⁯‫⁭‮⁭⁪‮‬‬‭⁯⁬⁬⁬‍⁫‎⁫​‍‫‪‏⁬‬‌‬‍⁬⁭⁬⁯⁭‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‬⁯‍‬‫⁭⁬​‏⁭⁫‍‫⁫​⁯⁮‮⁯⁪‍⁮‬⁬‍⁮‫⁯‏​‎‍‬‎‪‬‪⁯‪‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D‎‌⁫⁬‍‬‮⁪‎‭⁯‌⁯‪‮⁭⁬‏⁫‍‬⁯‭⁬⁯‎‬‏⁬‌⁬‌⁯​‮⁪⁯‏‭‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮))), true);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‏‬‪⁪⁯‬⁯‎⁬​‪‬‌‪‮‏‮‏⁬‏⁯‮‫‏‬‮‎‏⁬⁭‬⁭⁬‮‫‌⁫⁫‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‬⁯‍‬‫⁭⁬​‏⁭⁫‍‫⁫​⁯⁮‮⁯⁪‍⁮‬⁬‍⁮‫⁯‏​‎‍‬‎‪‬‪⁯‪‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D‎‌⁫⁬‍‬‮⁪‎‭⁯‌⁯‪‮⁭⁬‏⁫‍‬⁯‭⁬⁯‎‬‏⁬‌⁬‌⁯​‮⁪⁯‏‭‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮))), true);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200F‌‍‬⁯‎‮⁭‏‪‪‪⁭‬‌‌‭‮‌‎‪‮⁫​⁪⁪⁭‬⁫‬‮‌‍‮‏‍‍‮⁬⁮‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‌⁫⁯⁮‎​⁮​‭⁪‎⁮⁯⁫‭‭⁭​‮‏‫⁮‮‎‎⁪‬⁪⁬​⁭‭⁫⁯‫⁬‮​‬‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮)), Color.FromArgb(80, 180, (int) byte.MaxValue));
+          num1 = (int) num2 * -1951590925 ^ 263810818;
+          continue;
+        case 64:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.LookAndFeel.UseDefaultLookAndFeel = false;
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(244472211U);
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.RightToLeft = RightToLeft.No;
+          num1 = (int) num2 * -356736861 ^ -940039145;
+          continue;
+        case 65:
+          accordionContextButton5.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(4147399484U);
+          num1 = (int) num2 * -1543029571 ^ 1889097915;
+          continue;
+        case 66:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemInMenuAppearance.Hovered.ForeColor = Color.White;
+          num1 = (int) num2 * 79528423 ^ 2053321474;
+          continue;
+        case 67:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.Options.UseFont = true;
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.Options.UseForeColor = true;
+          accordionContextButton2.AlignmentOptions.Panel = ContextItemPanel.Center;
+          num1 = (int) num2 * 1852614791 ^ -810060714;
+          continue;
+        case 68:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Appearance.Options.UseBorderColor = true;
+          num1 = (int) num2 * 584148952 ^ 355587202;
+          continue;
+        case 69:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.EndInit();
+          this.\u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮.EndInit();
+          num1 = (int) num2 * -616432237 ^ 1054070776;
+          continue;
+        case 70:
+          accordionContextButton8.Id = new Guid(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(1709333634U));
+          num1 = (int) num2 * -166843034 ^ 1302844071;
+          continue;
+        case 71:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsView.ShowHorzLines = false;
+          num1 = (int) num2 * 1899709196 ^ -1642578220;
+          continue;
+        case 72:
+          this.Controls.Add((Control) this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮);
+          this.Controls.Add((Control) this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮);
+          this.DoubleBuffered = true;
+          this.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(428502066U);
+          num1 = (int) num2 * -233574309 ^ -587152923;
+          continue;
+        case 73:
+          accordionContextButton8.Name = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(784746864U);
+          num1 = (int) num2 * 2111919250 ^ 1688772286;
+          continue;
+        case 74:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * -1678160313 ^ 1055590620;
+          continue;
+        case 75:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemAppearance.Hovered.ForeColor = Color.White;
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemAppearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * -1138807011 ^ 892493346;
+          continue;
+        case 76:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsMenu.ShowAutoFilterRowItem = false;
+          num1 = (int) num2 * -536185689 ^ -960623334;
+          continue;
+        case 77:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * -1483478576 ^ -449612322;
+          continue;
+        case 78:
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Name = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(188308085U);
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Padding = new Padding(5);
+          num1 = (int) num2 * 1163753003 ^ 934182314;
+          continue;
+        case 79:
+          element4.ImageOptions.ImageScaleMode = TileItemImageScaleMode.Squeeze;
+          element4.TextAlignment = TileItemContentAlignment.BottomCenter;
+          num1 = (int) num2 * 416614142 ^ -1010959227;
+          continue;
+        case 80:
+          this.\u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮.LinksPersistInfo.AddRange(new LinkPersistInfo[4]
+          {
+            new LinkPersistInfo((BarItem) this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮),
+            new LinkPersistInfo((BarItem) this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮),
+            new LinkPersistInfo((BarItem) this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮),
+            new LinkPersistInfo((BarItem) this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮)
+          });
+          this.\u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮.Manager = this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮;
+          this.\u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(3424918196U);
+          num1 = (int) num2 * 980878916 ^ -293425079;
+          continue;
+        case 81:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Elements.AddRange(new AccordionControlElement[3]
+          {
+            (AccordionControlElement) this.\u206C‏‫‍‫‬‮‏⁬⁪⁭⁮⁮‭⁭⁭​‏‍‏⁬⁮⁫‮⁬⁮⁫‌‪‎⁭‎⁪‬‌​⁬‭⁫‎‮,
+            this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮,
+            (AccordionControlElement) this.\u206B⁭‬​‭‏‭⁫‌⁮‭‌⁫‫‍⁪‍⁪⁭⁪‭‬⁯‫‬‏⁬⁭‏‭⁭⁮‪‪⁮‫‮⁬‌‮
+          });
+          num1 = (int) num2 * 1148081348 ^ 877748712;
+          continue;
+        case 82:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemAppearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * 1394344462 ^ -1724228968;
+          continue;
+        case 83:
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.LookAndFeel.UseDefaultLookAndFeel = false;
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.Name = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(870316502U);
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.Size = new Size(748, 669);
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.TabIndex = 27;
+          num1 = (int) num2 * 1549784680 ^ -1686017126;
+          continue;
+        case 84:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Pressed.Options.UseBackColor = true;
+          num1 = (int) num2 * -2124257701 ^ 1325776131;
+          continue;
+        case 85:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.Options.UseBorderColor = true;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.Options.UseFont = true;
+          num1 = (int) num2 * 20709658 ^ 1623120059;
+          continue;
+        case 86:
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_Depth(0);
+          num1 = (int) num2 * 1475128448 ^ -353957911;
+          continue;
+        case 87:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * -1976756671 ^ -1914127948;
+          continue;
+        case 88:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Padding = new Padding(9, 0, 0, 0);
+          num1 = (int) num2 * -970430763 ^ 2047410893;
+          continue;
+        case 89:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Dock = DockStyle.Bottom;
+          num1 = (int) num2 * 520239755 ^ 1065866422;
+          continue;
+        case 90:
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_Hint(\u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(3405915217U));
+          num1 = (int) num2 * -737610742 ^ 1294504494;
+          continue;
+        case 91:
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮.VisibleIndex = 0;
+          num1 = (int) num2 * -1436931321 ^ 995623107;
+          continue;
+        case 92:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemInMenuAppearance.Normal.ForeColor = Color.White;
+          num1 = (int) num2 * -1932980274 ^ 1752097621;
+          continue;
+        case 93:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.PerformLayout();
+          num1 = (int) num2 * -38019297 ^ 1254154778;
+          continue;
+        case 94:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.BackColor = Color.Transparent;
+          num1 = (int) num2 * -717946335 ^ 989378511;
+          continue;
+        case 95:
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200B‭⁮⁮⁯​‍​‮⁬‌‍‍⁭⁮⁪‎‏⁬​‫‬‌‏‎​‎‪‫‭⁪⁬‭‏‍‫⁪‬‍⁪‮(this.\u206B⁫‪‍⁬⁪⁪⁫⁫⁫‬​​‬⁭⁮⁭‍‪‏⁮‎⁫‌⁭‏‏‮​​‍⁯‌‍‮‍‭‪⁫⁬‮);
+          this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202C‭‫‌‏⁫⁬‏⁮‍⁮‭⁯‏‌⁪‮⁪‎⁭‍⁪‍⁪‌‌⁫⁮‎⁯‍‎⁯‭‌‍‌‌‍‎‮();
+          this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202C‭‫‌‏⁫⁬‏⁮‍⁮‭⁯‏‌⁪‮⁪‎⁭‍⁪‍⁪‌‌⁫⁮‎⁯‍‎⁯‭‌‍‌‌‍‎‮();
+          this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202C‭‫‌‏⁫⁬‏⁮‍⁮‭⁯‏‌⁪‮⁪‎⁭‍⁪‍⁪‌‌⁫⁮‎⁯‍‎⁯‭‌‍‌‌‍‎‮();
+          num1 = (int) num2 * 1615595173 ^ 1866743470;
+          continue;
+        case 96:
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(747771716U);
+          num1 = (int) num2 * -220925579 ^ 782628864;
+          continue;
+        case 97:
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).AutoSize = true;
+          num1 = (int) num2 * 1425409034 ^ -245782626;
+          continue;
+        case 98:
+          accordionContextButton3.AlignmentOptions.Panel = ContextItemPanel.Center;
+          num1 = (int) num2 * 762002033 ^ -883510026;
+          continue;
+        case 99:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.Caption = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(527389246U);
+          num1 = (int) num2 * -2146563071 ^ 519019262;
+          continue;
+        case 100:
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.PaintStyleName = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(75914393U);
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.Size = new Size(748, 669);
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.TabIndex = 22;
+          num1 = (int) num2 * -674328650 ^ 2062872434;
+          continue;
+        case 101:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(430064711U));
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemAppearance.Hovered.ForeColor = Color.White;
+          num1 = (int) num2 * 1990691141 ^ 83767819;
+          continue;
+        case 102:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.Font = new Font(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1461506078U), 10f);
+          num1 = (int) num2 * -661491084 ^ -787332149;
+          continue;
+        case 103:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemInMenuAppearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * -787838732 ^ -1067373634;
+          continue;
+        case 104:
+          accordionContextButton4.Id = new Guid(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(374251236U));
+          num1 = (int) num2 * 1394081704 ^ -867196752;
+          continue;
+        case 105:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.TabIndex = 0;
+          num1 = (int) num2 * -1098450917 ^ -1932528484;
+          continue;
+        case 106:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.Id = 0;
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.ItemSize = TileItemSize.Large;
+          num1 = (int) num2 * 889202651 ^ 1534791067;
+          continue;
+        case 107:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Style = ElementStyle.Item;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Text = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(194697979U);
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Visible = false;
+          num1 = (int) num2 * -95843753 ^ -1115700483;
+          continue;
+        case 108:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Text = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(2144942252U);
+          num1 = (int) num2 * -1918186732 ^ 2075475138;
+          continue;
+        case 109:
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).Location = new Point(226, 0);
+          this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮.set_MouseState((MouseState) 0);
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).Name = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(730984657U);
+          this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮.set_Primary(true);
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).Size = new Size(121, 35);
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).TabIndex = 22;
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).Text = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(2370499431U);
+          num1 = (int) num2 * -1042343186 ^ -1266765588;
+          continue;
+        case 110:
+          accordionContextButton7.AppearanceHover.Font = new Font(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(3402550598U), 9f);
+          num1 = (int) num2 * -1529848661 ^ 825925284;
+          continue;
+        case 111:
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Dock = DockStyle.Bottom;
+          num1 = (int) num2 * -1174554059 ^ 1041984795;
+          continue;
+        case 112:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D⁬‏‌‎‏‭‍⁪‍‪‏​‏⁯⁫‬‬‏‏‬‍⁫‏⁭⁬⁪‭⁯‌‫‍‫⁯⁮⁭⁬‍⁮‏‮();
+          num1 = (int) num2 * -1067455366 ^ -1472704506;
+          continue;
+        case 113:
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮.MinWidth = 17;
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮.Name = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(3960927032U);
+          num1 = (int) num2 * 1276811513 ^ 1284079657;
+          continue;
+        case 114:
+          accordionContextButton6.AppearanceHover.Font = new Font(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(3402550598U), 9f);
+          accordionContextButton6.AppearanceHover.Options.UseFont = true;
+          accordionContextButton6.AppearanceNormal.Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 9f);
+          accordionContextButton6.AppearanceNormal.Options.UseFont = true;
+          num1 = (int) num2 * 493246881 ^ -228817995;
+          continue;
+        case 115:
+          this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮.CausesValidation = false;
+          num1 = (int) num2 * 849524678 ^ -340454791;
+          continue;
+        case 116:
+          this.Controls.Add((Control) this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮);
+          this.Controls.Add((Control) this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮);
+          this.Controls.Add((Control) this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮);
+          num1 = (int) num2 * 1836634264 ^ 499538954;
+          continue;
+        case 117:
+          accordionContextButton4 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+          num1 = (int) num2 * -992077351 ^ -1855573533;
+          continue;
+        case 118:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemAppearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * 1386901800 ^ 622489442;
+          continue;
+        case 119:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.AutoSizeMode = LabelAutoSizeMode.None;
+          num1 = (int) num2 * 933692844 ^ 1129248471;
+          continue;
+        case 120:
+          accordionContextButton5.AlignmentOptions.Position = ContextItemPosition.Far;
+          num1 = (int) num2 * -145873180 ^ 800485782;
+          continue;
+        case 121:
+          this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮.CausesValidation = false;
+          this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮.Dock = DockStyle.Top;
+          num1 = (int) num2 * 1060631181 ^ 679495617;
+          continue;
+        case 122:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.BackgroundImageScaleMode = TileItemImageScaleMode.Squeeze;
+          num1 = (int) num2 * 588128731 ^ 479804945;
+          continue;
+        case 123:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemAppearance.Pressed.Options.UseForeColor = true;
+          num1 = (int) num2 * -1143966732 ^ 1980881583;
+          continue;
+        case 124:
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.Id = 2;
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.ItemSize = TileItemSize.Large;
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(1808660025U);
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.TextShowMode = TileItemContentShowMode.Hover;
+          num1 = (int) num2 * 2031050356 ^ -1356991055;
+          continue;
+        case 125:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.Options.UseFont = true;
+          num1 = (int) num2 * 742300965 ^ -113103109;
+          continue;
+        case 126:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.BackgroundImageAlignment = TileItemContentAlignment.MiddleCenter;
+          num1 = (int) num2 * 1873645285 ^ -897234886;
+          continue;
+        case (uint) sbyte.MaxValue:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.BorderColor = Color.Transparent;
+          num1 = (int) num2 * 18855867 ^ -1635681652;
+          continue;
+        case 128:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.Options.UseBorderColor = true;
+          num1 = (int) num2 * -1968954557 ^ 1543742182;
+          continue;
+        case 129:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Controls.Add((Control) this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮);
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Dock = DockStyle.Left;
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Location = new Point(0, 0);
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.LookAndFeel.SkinName = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(4252831583U);
+          num1 = (int) num2 * 1645830185 ^ 132931932;
+          continue;
+        case 130:
+          element1 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‌​⁭‫⁯⁮‬⁮⁮‍⁮‌‫‫⁪⁯‫⁪‬​⁮‫‌‫‍⁪‍⁭‍‮‮⁬‌⁭‌‍⁪‍‮();
+          num1 = (int) num2 * -1902339726 ^ 1717034468;
+          continue;
+        case 131:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Appearance.BackColor = Color.FromArgb(45, 45, 45);
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Appearance.BorderColor = Color.FromArgb(67, 67, 69);
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Appearance.Options.UseBackColor = true;
+          num1 = (int) num2 * -2042592462 ^ 1158927912;
+          continue;
+        case 132:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.Options.UseFont = true;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.Options.UseForeColor = true;
+          num1 = (int) num2 * -356492465 ^ 1078678018;
+          continue;
+        case 133:
+          element5.ImageOptions.ImageScaleMode = TileItemImageScaleMode.Squeeze;
+          element5.Text = "";
+          num1 = (int) num2 * -1535408420 ^ -48001935;
+          continue;
+        case 134:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Controls.Add((Control) this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮);
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Controls.Add((Control) this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮);
+          num1 = (int) num2 * 1144675566 ^ 1154513756;
+          continue;
+        case 135:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Hovered.BackColor = Color.FromArgb(37, 37, 37);
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Hovered.Options.UseBackColor = true;
+          num1 = (int) num2 * 311627378 ^ -1138755426;
+          continue;
+        case 136:
+          this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮.Location = new Point(0, 0);
+          this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮.Manager = this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮;
+          this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮.Size = new Size(1096, 0);
+          num1 = (int) num2 * -1494668365 ^ -1784770427;
+          continue;
+        case 137:
+          accordionContextButton7.Id = new Guid(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(3990406773U));
+          num1 = (int) num2 * 426114395 ^ -814670570;
+          continue;
+        case 138:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.BackColor = Color.Transparent;
+          num1 = (int) num2 * -1470367712 ^ -398001559;
+          continue;
+        case 139:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Controls.Add((Control) this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮);
+          num1 = (int) num2 * 569975177 ^ 777593240;
+          continue;
+        case 140:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.Options.UseBorderColor = true;
+          num1 = (int) num2 * -863786011 ^ 1124280437;
+          continue;
+        case 141:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.Elements.Add(element5);
+          num1 = (int) num2 * -304091028 ^ 1433290039;
+          continue;
+        case 142:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Dock = DockStyle.Bottom;
+          num1 = (int) num2 * 2040090328 ^ -1304900871;
+          continue;
+        case 143:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Location = new Point(0, 91);
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.LookAndFeel.SkinMaskColor = Color.FromArgb(84, 84, 84);
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.LookAndFeel.SkinName = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(4038265243U);
+          num1 = (int) num2 * -2059130103 ^ 1520565036;
+          continue;
+        case 144:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.ForeColor = Color.DimGray;
+          num1 = (int) num2 * -1250930534 ^ -1719998021;
+          continue;
+        case 145:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.Options.UseBackColor = true;
+          num1 = (int) num2 * 1462305071 ^ 1901212176;
+          continue;
+        case 146:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsBehavior.EditorShowMode = TreeListEditorShowMode.DoubleClick;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsBehavior.ResizeNodes = false;
+          num1 = (int) num2 * 1297538944 ^ -174948902;
+          continue;
+        case 147:
+          element2.StretchVertical = true;
+          element2.Text = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(4019886514U);
+          num1 = (int) num2 * 1889600111 ^ 645612658;
+          continue;
+        case 148:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.ForeColor = Color.DimGray;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.Options.UseBackColor = true;
+          num1 = (int) num2 * 2012460906 ^ -1805728182;
+          continue;
+        case 149:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.BackColor = Color.Transparent;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * 340900354 ^ 1657074594;
+          continue;
+        case 150:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsView.ShowIndicator = false;
+          num1 = (int) num2 * 1753965153 ^ -1319973117;
+          continue;
+        case 151:
+          this.\u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E‍‏⁬⁫⁭⁫‭‫⁭‭⁭⁬​‬⁬⁭⁯‫‏⁫‬⁬⁪⁫⁫⁬‎⁮‫‭‫‪⁬⁬‍‫⁭⁪⁯‮();
+          this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200B⁭⁭‎‫⁪⁮‭⁫⁬‌‮‏⁬‫⁬‏‭‭‪‫​⁫‌⁬⁯‎⁫⁪⁯‪‬​‌⁮‍‎‪‬⁫‮(this.\u206B⁫‪‍⁬⁪⁪⁫⁫⁫‬​​‬⁭⁮⁭‍‪‏⁮‎⁫‌⁭‏‏‮​​‍⁯‌‍‮‍‭‪⁫⁬‮);
+          num1 = (int) num2 * -712262888 ^ -946945881;
+          continue;
+        case 152:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(856652372U));
+          num1 = (int) num2 * -976226801 ^ 1993678900;
+          continue;
+        case 153:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * 1695433941 ^ 2090164434;
+          continue;
+        case 154:
+          this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮.Location = new Point(0, 0);
+          this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮.Manager = this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮;
+          this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮.Size = new Size(0, 669);
+          num1 = (int) num2 * 405258690 ^ 898997821;
+          continue;
+        case 155:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.Font = new Font(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1461506078U), 10f);
+          num1 = (int) num2 * -1983488474 ^ 6504646;
+          continue;
+        case 156:
+          accordionContextButton6.AlignmentOptions.Panel = ContextItemPanel.Center;
+          accordionContextButton6.AlignmentOptions.Position = ContextItemPosition.Far;
+          num1 = (int) num2 * -1521546724 ^ 1262940342;
+          continue;
+        case 157:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemInMenuAppearance.Pressed.Options.UseForeColor = true;
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.Name = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(1785326238U);
+          this.\u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮.AutoHeight = false;
+          num1 = (int) num2 * 2132818715 ^ -724542951;
+          continue;
+        case 158:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D⁬‏‌‎‏‭‍⁪‍‪‏​‏⁯⁫‬‬‏‏‬‍⁫‏⁭⁬⁪‭⁯‌‫‍‫⁯⁮⁭⁬‍⁮‏‮();
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D⁬‏‌‎‏‭‍⁪‍‪‏​‏⁯⁫‬‬‏‏‬‍⁫‏⁭⁬⁪‭⁯‌‫‍‫⁯⁮⁭⁬‍⁮‏‮();
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D⁬‏‌‎‏‭‍⁪‍‪‏​‏⁯⁫‬‬‏‏‬‍⁫‏⁭⁬⁪‭⁯‌‫‍‫⁯⁮⁭⁬‍⁮‏‮();
+          num1 = (int) num2 * -1073864992 ^ 332052163;
+          continue;
+        case 159:
+          element4.ImageOptions.Image = (Image) \u0020\u003FY\u003Dy\u005ERd\u0029Ls0.\u206F⁫‮⁮‎‬⁯⁬‍‍‫⁬⁯‮‫⁮‍​​‭‍‏⁮‫⁮⁫⁭​⁭⁮‪⁭‍‌‬‭‪⁯⁭‬‮;
+          num1 = (int) num2 * -1280634772 ^ -81908641;
+          continue;
+        case 160:
+          element5 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‌​⁭‫⁯⁮‬⁮⁮‍⁮‌‫‫⁪⁯‫⁪‬​⁮‫‌‫‍⁪‍⁭‍‮‮⁬‌⁭‌‍⁪‍‮();
+          num1 = (int) num2 * -299290006 ^ 313565123;
+          continue;
+        case 161:
+          this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮.ImageStream = (ImageListStreamer) componentResourceManager.GetObject(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(1563122109U));
+          num1 = (int) num2 * -650032320 ^ 1325448447;
+          continue;
+        case 162:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(2359991080U));
+          num1 = (int) num2 * 755143628 ^ 1082157516;
+          continue;
+        case 163:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 10f);
+          num1 = (int) num2 * 1025869550 ^ 606856516;
+          continue;
+        case 164:
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_SelectionStart(0);
+          num1 = (int) num2 * -1929246800 ^ 784459935;
+          continue;
+        case 165:
+          this.\u200E⁪⁯​‭‪⁯⁫‫‌⁮‭‪‎‪⁯‬‏‍⁪​‏‎⁮‮‬⁮‬‭‬‎‫‎⁯⁮‏​‬‫‏‮.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(1403119323U);
+          this.\u200E⁪⁯​‭‪⁯⁫‫‌⁮‭‪‎‪⁯‬‏‍⁪​‏‎⁮‮‬⁮‬‭‬‎‫‎⁯⁮‏​‬‫‏‮.Text = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(3236994301U);
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.AllowAnimation = false;
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.AllowSelectAnimation = false;
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.AppearanceItem.Normal.BackColor = Color.FromArgb(37, 37, 37);
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.AppearanceItem.Normal.Options.UseBackColor = true;
+          num1 = (int) num2 * -1944814297 ^ 689137572;
+          continue;
+        case 166:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.LookAndFeel.SkinMaskColor = SystemColors.MenuHighlight;
+          num1 = (int) num2 * 1871181256 ^ 1534995831;
+          continue;
+        case 167:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemInMenuAppearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * 168286340 ^ -1463404957;
+          continue;
+        case 168:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.Options.UseBackColor = true;
+          num1 = (int) num2 * -765007362 ^ -772650592;
+          continue;
+        case 169:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 9f, FontStyle.Bold);
+          num1 = (int) num2 * 1465326980 ^ -1832339847;
+          continue;
+        case 170:
+          accordionContextButton4.AlignmentOptions.Panel = ContextItemPanel.Center;
+          accordionContextButton4.AlignmentOptions.Position = ContextItemPosition.Far;
+          num1 = (int) num2 * 971284528 ^ -1444854288;
+          continue;
+        case 171:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.BorderColor = Color.Transparent;
+          num1 = (int) num2 * 905505694 ^ 1715395170;
+          continue;
+        case 172:
+          this.\u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(3689149329U);
+          num1 = (int) num2 * -1709048502 ^ -1129248877;
+          continue;
+        case 173:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.LookAndFeel.UseDefaultLookAndFeel = false;
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(3898681265U);
+          num1 = (int) num2 * 1587316728 ^ -2071370838;
+          continue;
+        case 174:
+          this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮.set_Depth(0);
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).Dock = DockStyle.Right;
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).ForeColor = Color.White;
+          this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮.set_Icon((Image) null);
+          num1 = (int) num2 * 176343497 ^ -1116508997;
+          continue;
+        case 175:
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.Appearance.BackColor = Color.FromArgb(25, 25, 25);
+          num1 = (int) num2 * -1887867068 ^ -1104481610;
+          continue;
+        case 176:
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).TabStop = false;
+          num1 = (int) num2 * -222445941 ^ -16719530;
+          continue;
+        case 177:
+          element2 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‌​⁭‫⁯⁮‬⁮⁮‍⁮‌‫‫⁪⁯‫⁪‬​⁮‫‌‫‍⁪‍⁭‍‮‮⁬‌⁭‌‍⁪‍‮();
+          num1 = (int) num2 * 647088329 ^ -709406169;
+          continue;
+        case 178:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Name = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(296527784U);
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Text = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(3486994339U);
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.BackColor = Color.Transparent;
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.BackColor2 = Color.Transparent;
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.BorderColor = Color.Transparent;
+          num1 = (int) num2 * -1318323744 ^ -380645961;
+          continue;
+        case 179:
+          this.AutoScaleMode = AutoScaleMode.Font;
+          num1 = (int) num2 * -337552112 ^ -295391548;
+          continue;
+        case 180:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.FixedLineWidth = 3;
+          num1 = (int) num2 * 703633105 ^ 1206764775;
+          continue;
+        case 181:
+          accordionContextButton1.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(4147399484U);
+          accordionContextButton5.AlignmentOptions.Panel = ContextItemPanel.Center;
+          num1 = (int) num2 * -1336307429 ^ 1728265413;
+          continue;
+        case 182:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 12f);
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Location = new Point(0, 484);
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(2284673719U);
+          num1 = (int) num2 * 725861105 ^ 479649560;
+          continue;
+        case 183:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.BorderColor = Color.Transparent;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.Font = new Font(\u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(3730779744U), 10f);
+          num1 = (int) num2 * 1752302886 ^ -1709851246;
+          continue;
+        case 184:
+          this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮.Size = new Size(1096, 0);
+          this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮.CausesValidation = false;
+          num1 = (int) num2 * -1073870796 ^ 723714753;
+          continue;
+        case 185:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemAppearance.Pressed.Options.UseForeColor = true;
+          num1 = (int) num2 * -682405288 ^ -107215988;
+          continue;
+        case 186:
+          accordionContextButton4.ImageOptions.Image = (Image) \u0020\u003FY\u003Dy\u005ERd\u0029Ls0.\u200C‪‏‭‎⁪⁬​⁯⁯‏‎⁮⁯‭‍‮⁭‪⁯‪‌‍​⁪⁬⁫⁭‬⁮⁮‬‌‌‎⁭⁫⁯⁪‏‮;
+          accordionContextButton4.Name = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(784746864U);
+          num1 = (int) num2 * -300316352 ^ 1914531450;
+          continue;
+        case 187:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‏‬‪⁪⁯‬⁯‎⁬​‪‬‌‪‮‏‮‏⁬‏⁯‮‫‏‬‮‎‏⁬⁭‬⁭⁬‮‫‌⁫⁫‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‬⁯‍‬‫⁭⁬​‏⁭⁫‍‫⁫​⁯⁮‮⁯⁪‍⁮‬⁬‍⁮‫⁯‏​‎‍‬‎‪‬‪⁯‪‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‌⁫⁯⁮‎​⁮​‭⁪‎⁮⁯⁫‭‭⁭​‮‏‫⁮‮‎‎⁪‬⁪⁬​⁭‭⁫⁯‫⁬‮​‬‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮))), true);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200F‌‍‬⁯‎‮⁭‏‪‪‪⁭‬‌‌‭‮‌‎‪‮⁫​⁪⁪⁭‬⁫‬‮‌‍‮‏‍‍‮⁬⁮‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206D​‍‬‌‭‌⁭⁬⁪‭⁫‍⁯‌⁬‎‎‪‌‌‏‬‪⁮‭​‍‪‌⁫‏​‪‫⁮​‍‬⁬‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮)), Color.FromArgb(80, 180, (int) byte.MaxValue));
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‏‬‪⁪⁯‬⁯‎⁬​‪‬‌‪‮‏‮‏⁬‏⁯‮‫‏‬‮‎‏⁬⁭‬⁭⁬‮‫‌⁫⁫‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‬⁯‍‬‫⁭⁬​‏⁭⁫‍‫⁫​⁯⁮‮⁯⁪‍⁮‬⁬‍⁮‫⁯‏​‎‍‬‎‪‬‪⁯‪‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206D​‍‬‌‭‌⁭⁬⁪‭⁫‍⁯‌⁬‎‎‪‌‌‏‬‪⁮‭​‍‪‌⁫‏​‪‫⁮​‍‬⁬‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮))), true);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E⁯‏‪‪⁮⁪⁫‍‌‬⁮‭⁬⁭⁯‭⁮‪‏⁯‪⁮⁪⁬‬‎‏‪⁮‏‫​‪‌‍⁫‎⁯‬‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202B‎‎‫⁫‎⁬‏⁫⁪‫‍⁪⁮‭‫‍⁯‎‌‬⁮‫⁯‍⁫⁮‮⁫‍‮⁯‮‎⁭‪‫‮‫⁫‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮)), \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206A‬⁭​‌⁯‫‫‍‏⁫‪⁪‮‌‍‏⁯⁬⁪‮‎⁮⁪‭‫‍⁮‪‪​‌‬⁬⁬‍‫‭‭‍‮(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 10f));
+          num1 = (int) num2 * 729259742 ^ 1244537981;
+          continue;
+        case 188:
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.MaxItemId = 11;
+          num1 = (int) num2 * 267877925 ^ 1427255567;
+          continue;
+        case 189:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.AppearanceItem.Normal.Options.UseBackColor = true;
+          num1 = (int) num2 * -1828616570 ^ -848719548;
+          continue;
+        case 190:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.RepositoryItems.AddRange(new RepositoryItem[1]
+          {
+            (RepositoryItem) this.\u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮
+          });
+          num1 = (int) num2 * 1627603060 ^ 2080650093;
+          continue;
+        case 191:
+          accordionContextButton5.Caption = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(1708050253U);
+          num1 = (int) num2 * 1568929675 ^ 455813051;
+          continue;
+        case 192:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemAppearance.Normal.ForeColor = Color.White;
+          num1 = (int) num2 * 512423674 ^ 1724045142;
+          continue;
+        case 193:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemInMenuAppearance.Hovered.ForeColor = Color.White;
+          num1 = (int) num2 * 1839477612 ^ -2061617073;
+          continue;
+        case 194:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsView.FocusRectStyle = DrawFocusRectStyle.None;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsView.ShowColumns = false;
+          num1 = (int) num2 * -1064422289 ^ 1374515287;
+          continue;
+        case 195:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Size = new Size(347, 35);
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.TabIndex = 1;
+          num1 = (int) num2 * 428062914 ^ -46485877;
+          continue;
+        case 196:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.ContextButtons.Add((ContextItem) accordionContextButton3);
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.ContextButtons.Add((ContextItem) accordionContextButton8);
+          num1 = (int) num2 * 703965765 ^ 1474114618;
+          continue;
+        case 197:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮((ISupportInitialize) this.\u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206D​‫⁫⁮⁫⁫⁬‮‭‬‫‮‌‏‭⁭‭‍⁪‬⁬‭‎‬‮‌⁬‭‍‪‌‪‮‮‫‏⁪‪⁫‮((Control) this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮);
+          num1 = (int) num2 * -1929250812 ^ 2052512728;
+          continue;
+        case 198:
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.TabIndex = 0;
+          num1 = (int) num2 * 1537111526 ^ -770779402;
+          continue;
+        case 199:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemInMenuAppearance.Pressed.Options.UseForeColor = true;
+          num1 = (int) num2 * 2029706281 ^ 14415580;
+          continue;
+        case 200:
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.Appearance.Options.UseBackColor = true;
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.BorderStyle = BorderStyles.NoBorder;
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.Controls.Add((Control) this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮);
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.Dock = DockStyle.Fill;
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.Location = new Point(348, 0);
+          num1 = (int) num2 * 1948559763 ^ -282554395;
+          continue;
+        case 201:
+          element6.Text = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(3633295262U);
+          num1 = (int) num2 * 1723707183 ^ 667418326;
+          continue;
+        case 202:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * -1181377877 ^ 949805773;
+          continue;
+        case 203:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.LookAndFeel.SkinName = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(1707794561U);
+          num1 = (int) num2 * 1791068067 ^ 1119245997;
+          continue;
+        case 204:
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Location = new Point(9, 7);
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Margin = new Padding(3, 2, 3, 2);
+          num1 = (int) num2 * -1344150183 ^ -735925521;
+          continue;
+        case 205:
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200B⁮​‌‬‫‮⁪‎⁯‭‍‪‏‎‫‪‬‍‬⁪‌‪‌‫‬⁬​‪‬⁮‪⁬‬​⁮⁫⁫‍⁪‮();
+          num1 = (int) num2 * -1367805754 ^ -1250094703;
+          continue;
+        case 206:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * -1500737990 ^ 677439084;
+          continue;
+        case 207:
+          this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮.CausesValidation = false;
+          num1 = (int) num2 * 1224560336 ^ 957735930;
+          continue;
+        case 208:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(1837945816U);
+          num1 = (int) num2 * 335262654 ^ 972332612;
+          continue;
+        case 209:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Cursor = Cursors.Default;
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.DistanceBetweenRootGroups = 5;
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Dock = DockStyle.Top;
+          num1 = (int) num2 * 490764525 ^ 984179776;
+          continue;
+        case 210:
+          this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮.Size = new Size(0, 669);
+          num1 = (int) num2 * 1181524833 ^ -1694471551;
+          continue;
+        case 211:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.ContextButtons.Add((ContextItem) accordionContextButton2);
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.ContextButtons.Add((ContextItem) accordionContextButton7);
+          num1 = (int) num2 * 1637288063 ^ -1793562136;
+          continue;
+        case 212:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.Options.UseFont = true;
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.Options.UseForeColor = true;
+          num1 = (int) num2 * 1045952785 ^ 1034349296;
+          continue;
+        case 213:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemAppearance.Pressed.ForeColor = Color.White;
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemAppearance.Pressed.Options.UseForeColor = true;
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemInMenuAppearance.Hovered.ForeColor = Color.White;
+          num1 = (int) num2 * -2041076173 ^ 628295512;
+          continue;
+        case 214:
+          this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮.Dock = DockStyle.Right;
+          this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮.Location = new Point(1096, 0);
+          this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮.Manager = this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮;
+          num1 = (int) num2 * -523915225 ^ 838865886;
+          continue;
+        case 215:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Appearance.Options.UseBackColor = true;
+          num1 = (int) num2 * 1505899944 ^ -338971918;
+          continue;
+        case 216:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * 924998783 ^ -1918700941;
+          continue;
+        case 217:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.ResumeLayout(false);
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.EndInit();
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.EndInit();
+          num1 = (int) num2 * 454346009 ^ 519534336;
+          continue;
+        case 218:
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).BackColor = Color.Transparent;
+          num1 = (int) num2 * 102404830 ^ 1640303526;
+          continue;
+        case 219:
+          accordionContextButton2.AlignmentOptions.Position = ContextItemPosition.Far;
+          accordionContextButton2.Id = new Guid(\u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(2543121162U));
+          accordionContextButton2.ImageOptions.Image = (Image) \u0020\u003FY\u003Dy\u005ERd\u0029Ls0.\u206C‏‭‏⁪‍‮‍‍‪‍‌‪‪⁯⁭⁪‎‭‭‭‌‮‍⁭⁪⁯​‏‌‍‏‬‭‪‬‏‬​‌‮;
+          accordionContextButton2.Name = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(784746864U);
+          num1 = (int) num2 * 677529462 ^ 1289899909;
+          continue;
+        case 220:
+          goto label_3;
+        case 221:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Appearance.Options.UseBackColor = true;
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Appearance.Options.UseFont = true;
+          num1 = (int) num2 * 1299615639 ^ 595946166;
+          continue;
+        case 222:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.Caption = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(2053558051U);
+          num1 = (int) num2 * 1586412861 ^ 236411746;
+          continue;
+        case 223:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemAppearance.Pressed.Options.UseForeColor = true;
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemInMenuAppearance.Hovered.ForeColor = Color.White;
+          num1 = (int) num2 * -554805127 ^ 194592784;
+          continue;
+        case 224:
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Text = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(3212985058U);
+          num1 = (int) num2 * -1389173227 ^ -1855554487;
+          continue;
+        case 225:
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Dock = DockStyle.Bottom;
+          num1 = (int) num2 * 1142040575 ^ 1121773565;
+          continue;
+        case 226:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Appearance.ForeColor = Color.White;
+          num1 = (int) num2 * 1821125902 ^ 2114859217;
+          continue;
+        case 227:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsDragAndDrop.DragNodesMode = DragNodesMode.Single;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsFilter.AllowFilterEditor = false;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsFind.AllowFindPanel = false;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsLayout.AddNewColumns = false;
+          num1 = (int) num2 * -752609787 ^ 840467171;
+          continue;
+        case 228:
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮.SortMode = ColumnSortMode.Custom;
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮.Visible = true;
+          num1 = (int) num2 * -821776910 ^ 149669301;
+          continue;
+        case 229:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.Options.UseBorderColor = true;
+          num1 = (int) num2 * -684383794 ^ 1929732241;
+          continue;
+        case 230:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Controls.Add((Control) this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮);
+          num1 = (int) num2 * -1805155871 ^ 22515657;
+          continue;
+        case 231:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.Caption = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(2393606898U);
+          num1 = (int) num2 * -489318736 ^ 1169016176;
+          continue;
+        case 232:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.BackColor2 = Color.Transparent;
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.BorderColor = Color.Transparent;
+          num1 = (int) num2 * 604070720 ^ -791275662;
+          continue;
+        case 233:
+          accordionContextButton7.AppearanceNormal.Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 9f);
+          num1 = (int) num2 * 955072965 ^ 1112696662;
+          continue;
+        case 234:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.ContextButtons.Add((ContextItem) accordionContextButton4);
+          num1 = (int) num2 * -960228421 ^ -930912254;
+          continue;
+        case 235:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.RowHeight = 25;
+          num1 = (int) num2 * -770565108 ^ 1513193274;
+          continue;
+        case 236:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.FocusedCell.Options.UseForeColor = true;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.FocusedRow.ForeColor = Color.FromArgb(218, 218, 218);
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.FocusedRow.Options.UseForeColor = true;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.Row.ForeColor = Color.FromArgb(218, 218, 218);
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.Row.Options.UseForeColor = true;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.SelectedRow.ForeColor = Color.FromArgb(218, 218, 218);
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Appearance.SelectedRow.Options.UseForeColor = true;
+          num1 = (int) num2 * 1328876586 ^ 1475584543;
+          continue;
+        case 237:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.Options.UseBorderColor = true;
+          num1 = (int) num2 * 1416721317 ^ 652531785;
+          continue;
+        case 238:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemInMenuAppearance.Normal.ForeColor = Color.White;
+          num1 = (int) num2 * 1090348941 ^ 1656523744;
+          continue;
+        case 239:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(195735036U));
+          num1 = (int) num2 * 1290896815 ^ -1928253295;
+          continue;
+        case 240:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * 1397477413 ^ -1027849701;
+          continue;
+        case 241:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Text = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(1499249436U);
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+          num1 = (int) num2 * 1532159962 ^ 1321578337;
+          continue;
+        case 242:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsMenu.EnableColumnMenu = false;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsMenu.EnableFooterMenu = false;
+          num1 = (int) num2 * 272164911 ^ -978067116;
+          continue;
+        case 243:
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.LookAndFeel.SkinName = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(399216275U);
+          num1 = (int) num2 * 379854426 ^ -1197804887;
+          continue;
+        case 244:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206A‮⁭‏⁯‎‌‬⁫‫‌‌‫‬⁭​⁫‍​‮⁯⁪⁫⁬‎‭‏‍⁭‮​‮⁯‭‌​⁬‍⁮‍‮((Control) this);
+          num1 = (int) num2 * 2024827867 ^ 621472736;
+          continue;
+        case 245:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Dock = DockStyle.Bottom;
+          num1 = (int) num2 * 916964003 ^ -1595092365;
+          continue;
+        case 246:
+          accordionContextButton7.AlignmentOptions.Position = ContextItemPosition.Far;
+          num1 = (int) num2 * 938559315 ^ 1193696712;
+          continue;
+        case 247:
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.BorderVisibility = TileItemBorderVisibility.Never;
+          num1 = (int) num2 * -935496999 ^ 1569912288;
+          continue;
+        case 248:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(872979344U);
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Style = ElementStyle.Item;
+          num1 = (int) num2 * 887381187 ^ -712882007;
+          continue;
+        case 249:
+          element6.TextAlignment = TileItemContentAlignment.TopCenter;
+          num1 = (int) num2 * -1902399853 ^ 1198908084;
+          continue;
+        case 250:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemAppearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * -1690207248 ^ 341367662;
+          continue;
+        case 251:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.OptionsView.ShowTreeLines = DefaultBoolean.False;
+          num1 = (int) num2 * 575592437 ^ -1435802616;
+          continue;
+        case 252:
+          accordionContextButton6.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(4147399484U);
+          num1 = (int) num2 * 1017611215 ^ 1686811558;
+          continue;
+        case 253:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮((ISupportInitialize) this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮);
+          num1 = (int) num2 * -1540070683 ^ 483746558;
+          continue;
+        case 254:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemAppearance.Hovered.Options.UseForeColor = true;
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemAppearance.Normal.ForeColor = Color.White;
+          num1 = (int) num2 * -232994305 ^ 399360033;
+          continue;
+        case (uint) byte.MaxValue:
+          element5.ImageOptions.Image = (Image) \u0020\u003FY\u003Dy\u005ERd\u0029Ls0.\u200F⁬‭⁮‫‫‬​‍​⁭‬⁯‌⁯‭‎​‭⁪⁮‮‭‫⁮​⁪‪⁯⁬‮⁬‎⁮⁮⁪‬⁮⁪‮‮;
+          num1 = (int) num2 * 1916513834 ^ 1050945806;
+          continue;
+        case 256:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Elements.AddRange(new AccordionControlElement[4]
+          {
+            this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮,
+            this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮,
+            this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮,
+            this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮
+          });
+          num1 = (int) num2 * 2082538247 ^ -1749734254;
+          continue;
+        case 257:
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.DockControls.Add(this.\u200E⁭‭⁯‮⁯‪⁬‏⁮‭‮‏‏⁬‌​‪‮‬‮⁫​‪⁭⁬‎⁯⁯‫‮‎⁫‎⁫‭⁪‮⁯‪‮);
+          num1 = (int) num2 * 569865429 ^ -1308806410;
+          continue;
+        case 258:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.Options.UseFont = true;
+          num1 = (int) num2 * -2100797556 ^ -969421292;
+          continue;
+        case 259:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Appearance.BackColor = Color.FromArgb(25, 25, 25);
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Appearance.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 9f);
+          num1 = (int) num2 * -1680600679 ^ -928058075;
+          continue;
+        case 260:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.BorderColor = Color.Transparent;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 10f);
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.ForeColor = Color.DimGray;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.Options.UseBackColor = true;
+          num1 = (int) num2 * -2078788817 ^ -505761866;
+          continue;
+        case 261:
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemAppearance.Normal.Options.UseForeColor = true;
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮.ItemAppearance.Pressed.ForeColor = Color.White;
+          num1 = (int) num2 * 662492982 ^ -836744987;
+          continue;
+        case 262:
+          this.Controls.Add((Control) this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮);
+          num1 = (int) num2 * -267437925 ^ -2012815034;
+          continue;
+        case 263:
+          element3.TextAlignment = TileItemContentAlignment.BottomCenter;
+          num1 = (int) num2 * 667118098 ^ -465029793;
+          continue;
+        case 264:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Appearance.Options.UseFont = true;
+          num1 = (int) num2 * -1383246248 ^ -2069944374;
+          continue;
+        case 265:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.Options.UseBorderColor = true;
+          num1 = (int) num2 * -778021767 ^ 1904962629;
+          continue;
+        case 266:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.ForeColor = Color.DimGray;
+          num1 = (int) num2 * -729103029 ^ 310716572;
+          continue;
+        case 267:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemInMenuAppearance.Pressed.Options.UseForeColor = true;
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.Name = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(730331382U);
+          num1 = (int) num2 * -1098597978 ^ -1932908890;
+          continue;
+        case 268:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.BackColor = Color.Transparent;
+          num1 = (int) num2 * -1511882117 ^ 392488288;
+          continue;
+        case 269:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Pressed.ForeColor = Color.FromArgb(218, 218, 218);
+          num1 = (int) num2 * -2059575640 ^ 301927292;
+          continue;
+        case 270:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮((ISupportInitialize) this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮((ISupportInitialize) this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮);
+          num1 = (int) num2 * 1153540963 ^ 1773055241;
+          continue;
+        case 271:
+          accordionContextButton6.Caption = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(2252466666U);
+          num1 = (int) num2 * 366378087 ^ -1853426382;
+          continue;
+        case 272:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.Id = 9;
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(1956754304U));
+          num1 = (int) num2 * -1639650669 ^ 1765813043;
+          continue;
+        case 273:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁭‍‬⁫⁯‌‮⁮⁪​⁬⁯‮​⁪‬‎‍⁯‍‪​‌‍‭‌⁮⁪⁫⁯‬⁪⁯‍‭⁪⁫⁯‬‮();
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206B⁭‍‬⁫⁯‌‮⁮⁪​⁬⁯‮​⁪‬‎‍⁯‍‪​‌‍‭‌⁮⁪⁫⁯‬⁪⁯‍‭⁪⁫⁯‬‮();
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200F‭⁪‮‪⁪⁮⁭‌‫⁬​⁯‬‏‭​​‌⁮⁪⁯​⁯⁭‍‏‬‬⁬⁪⁬‪​‭‫‪​​‫‮();
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200B‭⁫‏⁬⁭⁭‍‭⁪⁯‍⁯‎‏⁭‌⁪‫‮‌‌‭⁬‍‫‮‏‎⁭⁬⁬‎‌⁬‎⁮‎‮‬‮();
+          this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206D‭⁮‬⁮⁭⁭‌⁫‭⁪​‍⁭‍‪‬‌⁯‭⁯‏‭‌​‪⁭‪​‬‭⁯⁫‮⁬​‭​‎‪‮();
+          num1 = (int) num2 * 1464712889 ^ 2138830677;
+          continue;
+        case 274:
+          ((Button) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).AutoSizeMode = AutoSizeMode.GrowAndShrink;
+          num1 = (int) num2 * -1935778940 ^ 520432222;
+          continue;
+        case 275:
+          element4 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‌​⁭‫⁯⁮‬⁮⁮‍⁮‌‫‫⁪⁯‫⁪‬​⁮‫‌‫‍⁪‍⁭‍‮‮⁬‌⁭‌‍⁪‍‮();
+          num1 = (int) num2 * -2010770168 ^ 1297781148;
+          continue;
+        case 276:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.ContextButtons.Add((ContextItem) accordionContextButton6);
+          num1 = (int) num2 * -1879575879 ^ 640852608;
+          continue;
+        case 277:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.Caption = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(2901788819U);
+          num1 = (int) num2 * 1790398562 ^ 1794644143;
+          continue;
+        case 278:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Name = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(639600456U);
+          num1 = (int) num2 * 485260936 ^ -120986002;
+          continue;
+        case 279:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202A⁯⁪‮‪‍‪⁯‫⁭‮⁭⁪‮‬‬‭⁯⁬⁬⁬‍⁫‎⁫​‍‫‪‏⁬‬‌‬‍⁬⁭⁬⁯⁭‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‬⁯‍‬‫⁭⁬​‏⁭⁫‍‫⁫​⁯⁮‮⁯⁪‍⁮‬⁬‍⁮‫⁯‏​‎‍‬‎‪‬‪⁯‪‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202B‎‎‫⁫‎⁬‏⁫⁪‫‍⁪⁮‭‫‍⁯‎‌‬⁮‫⁯‍⁫⁮‮⁫‍‮⁯‮‎⁭‪‫‮‫⁫‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮))), true);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202A‮‌‌⁬​⁬⁯‏‏⁮‎⁭‮⁫⁭⁪‭⁫‎‪⁮‫‎​⁫‎‌⁫‮‭⁬⁭‎⁮‬​‎‭‌‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮, BorderStyles.NoBorder);
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206C​⁮⁪‎‫‬‌​⁯⁪‪⁬‏⁯⁪⁭⁯⁮‌⁫‏‌‪‫⁮‮⁭​‏⁮‎‪‏‏⁭‫⁪⁭‬‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮, BorderStyles.NoBorder);
+          num1 = (int) num2 * -1501771511 ^ -631917182;
+          continue;
+        case 280:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.BorderColor = Color.Transparent;
+          num1 = (int) num2 * -936928914 ^ 1362720686;
+          continue;
+        case 281:
+          accordionContextButton7.AppearanceNormal.Options.UseFont = true;
+          num1 = (int) num2 * -36603345 ^ -1072692990;
+          continue;
+        case 282:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.BackColor = Color.Transparent;
+          num1 = (int) num2 * 1987117904 ^ 975401386;
+          continue;
+        case 283:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.Options.UseFont = true;
+          num1 = (int) num2 * 565370929 ^ -410323231;
+          continue;
+        case 284:
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.KeyDown += new KeyEventHandler(this.\u200E⁮‫​‍‍‎⁯⁭‌‏‏‭⁮‏⁮⁫‬‎⁬‫‎‫‮‏‏‏​⁭⁮‪⁮‌‫‭⁮⁯⁬⁭‮);
+          this.\u200E⁪⁯​‭‪⁯⁫‫‌⁮‭‪‎‪⁯‬‏‍⁪​‏‎⁮‮‬⁮‬‭‬‎‫‎⁯⁮‏​‬‫‏‮.Items.Add((ITileItem) this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮);
+          num1 = (int) num2 * -1660711228 ^ 123283169;
+          continue;
+        case 285:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206D​‫⁫⁮⁫⁫⁬‮‭‬‫‮‌‏‭⁭‭‍⁪‬⁬‭‎‬‮‌⁬‭‍‪‌‪‮‮‫‏⁪‪⁫‮((Control) this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮);
+          num1 = (int) num2 * 1913389506 ^ 710435664;
+          continue;
+        case 286:
+          this.AutoScaleDimensions = new SizeF(7f, 16f);
+          num1 = (int) num2 * 1621258658 ^ 1802230725;
+          continue;
+        case 287:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.BorderColor = Color.Transparent;
+          num1 = (int) num2 * 1787768378 ^ 725618189;
+          continue;
+        case 288:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.Options.UseForeColor = true;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.BackColor = Color.Transparent;
+          num1 = (int) num2 * 388319649 ^ 1624493177;
+          continue;
+        case 289:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Hovered.ForeColor = Color.DimGray;
+          num1 = (int) num2 * -581502379 ^ -1779228197;
+          continue;
+        case 290:
+          accordionContextButton8.AlignmentOptions.Position = ContextItemPosition.Far;
+          num1 = (int) num2 * -1022897258 ^ 367841902;
+          continue;
+        case 291:
+          accordionContextButton5 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+          accordionContextButton2 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+          num1 = (int) num2 * -22004482 ^ 1706394442;
+          continue;
+        case 292:
+          accordionContextButton7.AppearanceHover.Options.UseFont = true;
+          num1 = (int) num2 * 549123708 ^ -169951469;
+          continue;
+        case 293:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Normal.ForeColor = Color.FromArgb(218, 218, 218);
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Normal.Options.UseFont = true;
+          num1 = (int) num2 * -842445046 ^ 708017683;
+          continue;
+        case 294:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Location = new Point(0, 0);
+          num1 = (int) num2 * -1350456321 ^ 1171401968;
+          continue;
+        case 295:
+          this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮.Images.SetKeyName(0, \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(228313797U));
+          num1 = (int) num2 * 1945473032 ^ 1071173116;
+          continue;
+        case 296:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.AnimationType = DevExpress.XtraBars.Navigation.AnimationType.None;
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.AccordionControl.BackColor = Color.FromArgb(37, 37, 37);
+          num1 = (int) num2 * 883202292 ^ -476534670;
+          continue;
+        case 297:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemInMenuAppearance.Pressed.ForeColor = Color.White;
+          num1 = (int) num2 * 1320494012 ^ 516970035;
+          continue;
+        case 298:
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮.Size = new Size(348, 669);
+          num1 = (int) num2 * -1459643064 ^ 404297334;
+          continue;
+        case 299:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Location = new Point(0, 414);
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Name = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(144610039U);
+          num1 = (int) num2 * -2040162190 ^ 180077261;
+          continue;
+        case 300:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Pressed.BackColor = Color.FromArgb(37, 37, 37);
+          num1 = (int) num2 * 404917223 ^ 96750376;
+          continue;
+        case 301:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Normal.Font = new Font(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(609359137U), 12f);
+          num1 = (int) num2 * 1332324910 ^ 1351162537;
+          continue;
+        case 302:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.AllowSelectAnimation = false;
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.AppearanceItem.Normal.BackColor = Color.FromArgb(37, 37, 37);
+          num1 = (int) num2 * -1333155558 ^ -1449482251;
+          continue;
+        case 303:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemAppearance.Normal.ForeColor = Color.White;
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemAppearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * 1943165140 ^ 447650389;
+          continue;
+        case 304:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(1580595066U);
+          num1 = (int) num2 * 1275164105 ^ -958610481;
+          continue;
+        case 305:
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202B​​‫⁫‍‭‬⁯‪‮⁬‍⁯⁪‬⁫⁬‌⁫‭‎‪‮⁮‏‭‌​‎​‌‮​⁮⁭‮⁮‌⁪‮();
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202B​​‫⁫‍‭‬⁯‪‮⁬‍⁯⁪‬⁫⁬‌⁫‭‎‪‮⁮‏‭‌​‎​‌‮​⁮⁭‮⁮‌⁪‮();
+          this.\u202D⁯​⁮⁯⁭‍‏⁫‪​‍⁯‫⁫⁯⁪⁫⁪‬⁬‌‫⁮⁪‫‭‏‏‬‏‌⁬⁬⁯‫‎​‬⁮‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁭⁯⁫⁫‌‮‪⁫⁭⁫‏‭‬‫⁪‫⁫‭‌‮⁬⁪‏‏‌‌⁮⁪‏⁯‬​⁮⁬⁮‫​‫⁪‮(this.\u206B⁫‪‍⁬⁪⁪⁫⁫⁫‬​​‬⁭⁮⁭‍‪‏⁮‎⁫‌⁭‏‏‮​​‍⁯‌‍‮‍‭‪⁫⁬‮);
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202B‮‎‬‬⁫‮‮‮‏⁭‬‭⁮‭⁬‮‪‏‎⁮​‬​‎‎‪‪‏‫‍‍⁫‍⁬‎⁫‍⁭‫‮();
+          num1 = (int) num2 * 626657490 ^ 787449881;
+          continue;
+        case 306:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.Options.UseBackColor = true;
+          num1 = (int) num2 * -167716903 ^ 248288033;
+          continue;
+        case 307:
+          element1.TextAlignment = TileItemContentAlignment.BottomCenter;
+          num1 = (int) num2 * 525974189 ^ -164044503;
+          continue;
+        case 308:
+          this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮.Images.SetKeyName(1, \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(3270610119U));
+          num1 = (int) num2 * 1893911846 ^ -1617887156;
+          continue;
+        case 309:
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.EndInit();
+          num1 = (int) num2 * 591615496 ^ 376244871;
+          continue;
+        case 310:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202A⁯⁪‮‪‍‪⁯‫⁭‮⁭⁪‮‬‬‭⁯⁬⁬⁬‍⁫‎⁫​‍‫‪‏⁬‬‌‬‍⁬⁭⁬⁯⁭‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‬⁯‍‬‫⁭⁬​‏⁭⁫‍‫⁫​⁯⁮‮⁯⁪‍⁮‬⁬‍⁮‫⁯‏​‎‍‬‎‪‬‪⁯‪‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202E‭‍‌‬‬‬⁬‮‭‍‎⁪⁮​⁫⁪‎⁮‎⁯‌⁪‬‬‍⁮‮⁭⁯⁪⁭‫‬⁮‮‬⁭⁭⁪‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮)), true);
+          num1 = (int) num2 * 858820586 ^ 966138911;
+          continue;
+        case 311:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Location = new Point(0, 449);
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.LookAndFeel.SkinMaskColor = Color.MidnightBlue;
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.LookAndFeel.SkinName = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(3053558203U);
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.LookAndFeel.UseDefaultLookAndFeel = false;
+          num1 = (int) num2 * 567502037 ^ -924400469;
+          continue;
+        case 312:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.BorderColor = Color.Transparent;
+          num1 = (int) num2 * -144323629 ^ -983223239;
+          continue;
+        case 313:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Padding = new Padding(9, 0, 0, 0);
+          num1 = (int) num2 * 1492624545 ^ 1166884186;
+          continue;
+        case 314:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Pressed.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 12f);
+          num1 = (int) num2 * 128030525 ^ 1291672437;
+          continue;
+        case 315:
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).Size = new Size(217, 28);
+          ((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮).TabIndex = 21;
+          num1 = (int) num2 * -563593576 ^ -1613041922;
+          continue;
+        case 316:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * 913627920 ^ -64830224;
+          continue;
+        case 317:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D⁬‏‌‎‏‭‍⁪‍‪‏​‏⁯⁫‬‬‏‏‬‍⁫‏⁭⁬⁪‭⁯‌‫‍‫⁯⁮⁭⁬‍⁮‏‮();
+          num1 = (int) num2 * -605810042 ^ 721636851;
+          continue;
+        case 318:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Controls.Add((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮);
+          num1 = (int) num2 * 359852834 ^ 162588961;
+          continue;
+        case 319:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200C​‏‍‍‪‪‏‮‫‏‎‏‬‎‭‬‍‪‪‪‎‍‌‌‬‫​‪⁭‪‮⁮‍‬‫‮⁫​‏‮();
+          num1 = (int) num2 * 1459127684 ^ -502565981;
+          continue;
+        case 320:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.Options.UseBorderColor = true;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.Options.UseFont = true;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Normal.Options.UseForeColor = true;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.BackColor = Color.Transparent;
+          num1 = (int) num2 * -437527721 ^ -1115583210;
+          continue;
+        case 321:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Text = \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(518829026U);
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.BackColor = Color.Transparent;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Hovered.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * -380537111 ^ -227672796;
+          continue;
+        case 322:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.Options.UseFont = true;
+          num1 = (int) num2 * -1897464279 ^ -786238230;
+          continue;
+        case 323:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Hovered.ForeColor = Color.FromArgb(218, 218, 218);
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Hovered.Options.UseFont = true;
+          num1 = (int) num2 * -1781080864 ^ 2132171398;
+          continue;
+        case 324:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 10f);
+          num1 = (int) num2 * 1833863775 ^ -1064897962;
+          continue;
+        case 325:
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮.Caption = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(979649303U);
+          num1 = (int) num2 * 1808290350 ^ 478294964;
+          continue;
+        case 326:
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.Appearance.Options.UseForeColor = true;
+          this.\u206D‏⁯‏‎‪​⁬‎‎⁮⁭‏⁯‎‎‎‫⁬⁫‮‫⁮‌‎‭‪‎‏‏⁯‪‭‮‏‬⁭⁭‎‌‮.AutoSizeMode = LabelAutoSizeMode.None;
+          num1 = (int) num2 * 149851578 ^ 866721130;
+          continue;
+        case 327:
+          element1.Text = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(3093850981U);
+          num1 = (int) num2 * -802403447 ^ 1773797602;
+          continue;
+        case 328:
+          element6 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‌​⁭‫⁯⁮‬⁮⁮‍⁮‌‫‫⁪⁯‫⁪‬​⁮‫‌‫‍⁪‍⁭‍‮‮⁬‌⁭‌‍⁪‍‮();
+          num1 = (int) num2 * 640003896 ^ -129043328;
+          continue;
+        case 329:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.BackColor = Color.Transparent;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Pressed.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * -975598506 ^ 1012508253;
+          continue;
+        case 330:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Appearance.Normal.ForeColor = Color.DimGray;
+          num1 = (int) num2 * -120487773 ^ -297925480;
+          continue;
+        case 331:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.BackColor = Color.Transparent;
+          num1 = (int) num2 * 1579449871 ^ -479632437;
+          continue;
+        case 332:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ImageOptions.LargeImage = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(3388759337U));
+          num1 = (int) num2 * -1725025742 ^ 462446714;
+          continue;
+        case 333:
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_SelectionLength(0);
+          num1 = (int) num2 * -373036061 ^ -1837040437;
+          continue;
+        case 334:
+          accordionContextButton8 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+          num1 = (int) num2 * -735359107 ^ 1798325313;
+          continue;
+        case 335:
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.ItemClick += new TileItemClickEventHandler(this.\u206D‎‏‪⁭​‮‮⁯‭‬​‍‪⁮⁬⁭‮‍‫⁫‍‫‎‍‮‭⁯‏‎‪⁪​‮‍‪‭‪⁪‬‮);
+          num1 = (int) num2 * 421060784 ^ -948220389;
+          continue;
+        case 336:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Visible = false;
+          num1 = (int) num2 * -219710395 ^ 1795029148;
+          continue;
+        case 337:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206D​‫⁫⁮⁫⁫⁬‮‭‬‫‮‌‏‭⁭‭‍⁪‬⁬‭‎‬‮‌⁬‭‍‪‌‪‮‮‫‏⁪‪⁫‮((Control) this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮);
+          num1 = (int) num2 * 1977403279 ^ 256434553;
+          continue;
+        case 338:
+          accordionContextButton7 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮();
+          num1 = (int) num2 * 196390362 ^ -1823377549;
+          continue;
+        case 339:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.BorderVisibility = TileItemBorderVisibility.Never;
+          num1 = (int) num2 * -1416257924 ^ 655238801;
+          continue;
+        case 340:
+          accordionContextButton8.AppearanceHover.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 9f);
+          accordionContextButton8.AppearanceHover.Options.UseFont = true;
+          num1 = (int) num2 * 945674636 ^ 1111669912;
+          continue;
+        case 341:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 10f);
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Hovered.ForeColor = Color.DimGray;
+          num1 = (int) num2 * -437189852 ^ -1167828319;
+          continue;
+        case 342:
+          accordionContextButton5.Id = new Guid(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(125099718U));
+          num1 = (int) num2 * -1291879225 ^ 2101971241;
+          continue;
+        case 343:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E⁯‏‪‪⁮⁪⁫‍‌‬⁮‭⁬⁭⁯‭⁮‪‏⁯‪⁮⁪⁬‬‎‏‪⁮‏‫​‪‌‍⁫‎⁯‬‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D‎‌⁫⁬‍‬‮⁪‎‭⁯‌⁯‪‮⁭⁬‏⁫‍‬⁯‭⁬⁯‎‬‏⁬‌⁬‌⁯​‮⁪⁯‏‭‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮)), \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206A‬⁭​‌⁯‫‫‍‏⁫‪⁪‮‌‍‏⁯⁬⁪‮‎⁮⁪‭‫‍⁮‪‪​‌‬⁬⁬‍‫‭‭‍‮(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1461506078U), 10f));
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200F‌‍‬⁯‎‮⁭‏‪‪‪⁭‬‌‌‭‮‌‎‪‮⁫​⁪⁪⁭‬⁫‬‮‌‍‮‏‍‍‮⁬⁮‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200D‎‌⁫⁬‍‬‮⁪‎‭⁯‌⁯‪‮⁭⁬‏⁫‍‬⁯‭⁬⁯‎‬‏⁬‌⁬‌⁯​‮⁪⁯‏‭‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮)), Color.DimGray);
+          num1 = (int) num2 * 2112728431 ^ 820126766;
+          continue;
+        case 344:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‫⁯⁫⁯‮⁫⁫‎⁪⁬‎​⁭‍‏​⁭⁭⁯‌‭⁪‪‮‎​‍⁫‪‮⁬‫⁬​‏‌‫‪‮‮((Control) this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮, DockStyle.Fill);
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.Location = new Point(0, 0);
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮.LookAndFeel.SkinMaskColor = SystemColors.MenuHighlight;
+          num1 = (int) num2 * -1107351335 ^ 1329101087;
+          continue;
+        case 345:
+          this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮.Dock = DockStyle.Left;
+          num1 = (int) num2 * 427935708 ^ -1901692340;
+          continue;
+        case 346:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.Options.UseBackColor = true;
+          num1 = (int) num2 * 863995591 ^ 304905450;
+          continue;
+        case 347:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 10f);
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.ForeColor = Color.DimGray;
+          num1 = (int) num2 * 555966834 ^ -173273720;
+          continue;
+        case 348:
+          this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮.set_UseCustomBackColor(true);
+          num1 = (int) num2 * 1963637476 ^ -98107564;
+          continue;
+        case 349:
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.LookAndFeel.SkinMaskColor = Color.FromArgb(63, 63, 63);
+          num1 = (int) num2 * -2101729796 ^ 219204539;
+          continue;
+        case 350:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Pressed.Options.UseFont = true;
+          num1 = (int) num2 * 1118608831 ^ -1701390324;
+          continue;
+        case 351:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Appearance.Options.UseForeColor = true;
+          num1 = (int) num2 * 1898311747 ^ -56285246;
+          continue;
+        case 352:
+          this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮.Images.SetKeyName(3, \u003CModule\u003E.\u200D‫⁪⁫⁮​‌‍​‎⁭‎⁬‬‮‭⁮⁭‫‬⁭⁯‏‭‪⁪‬‬⁪‫‫‬​⁫⁮‏‏‮⁫‮<string>(539394650U));
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Appearance.BackColor = Color.FromArgb(25, 25, 25);
+          num1 = (int) num2 * 1195736521 ^ -1106735045;
+          continue;
+        case 353:
+          accordionContextButton5.AppearanceNormal.Options.UseFont = true;
+          num1 = (int) num2 * -1600268963 ^ -1232220864;
+          continue;
+        case 354:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202E‮‌⁪‏‮‪⁯‎‬‌⁬⁫‎​‭‍‭‌‎​‫‭‏‭‏‏⁪⁯‪‌‏‬⁫‏‍⁪⁫​⁪‮();
+          num1 = (int) num2 * 675828342 ^ 1578003010;
+          continue;
+        case 355:
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.BorderStyle = BorderStyles.NoBorder;
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Columns.AddRange(new TreeListColumn[1]
+          {
+            this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮
+          });
+          this.\u202C⁯‫⁯​‫⁮‍‎‭‏‫​⁭‎‍‬‍‫⁬⁭⁫‏‏‬⁬⁯​‍⁭‭‍⁯⁪⁯‎‬‮‎‪‮.Dock = DockStyle.Fill;
+          num1 = (int) num2 * 1819910035 ^ -2072215401;
+          continue;
+        case 356:
+          accordionContextButton3.Id = new Guid(\u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(554759959U));
+          num1 = (int) num2 * -42349994 ^ 132126174;
+          continue;
+        case 357:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemInMenuAppearance.Normal.Options.UseForeColor = true;
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemInMenuAppearance.Pressed.ForeColor = Color.White;
+          num1 = (int) num2 * -112680725 ^ 1019161788;
+          continue;
+        case 358:
+          accordionContextButton8.AppearanceNormal.Font = new Font(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1461506078U), 9f);
+          accordionContextButton8.AppearanceNormal.Options.UseFont = true;
+          accordionContextButton8.Caption = \u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(3469518734U);
+          num1 = (int) num2 * -1447141951 ^ 1180834902;
+          continue;
+        case 359:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200C​‏‍‍‪‪‏‮‫‏‎‏‬‎‭‬‍‪‪‪‎‍‌‌‬‫​‪⁭‪‮⁮‍‬‫‮⁫​‏‮();
+          num1 = (int) num2 * 505501954 ^ 1592400627;
+          continue;
+        case 360:
+          ((ButtonBase) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).UseMnemonic = false;
+          ((ButtonBase) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).UseVisualStyleBackColor = false;
+          ((Control) this.\u206B⁭⁫‪⁯‍⁮‍‪‮⁯‫⁫‍‎⁫‎⁪⁯‫⁮‬‌‏⁪‭⁪⁬‏⁭‏⁯‮‌‬⁭‬⁪‍‭‮).Click += new EventHandler(this.\u206C​‮⁪⁭‪‪‪‪⁪⁯‍⁪⁬‍‎⁪⁬‬‎‫‍⁬‮​‫⁪⁫‍​‌‍⁮⁬⁭‎​⁯‪‏‮);
+          num1 = (int) num2 * -135326169 ^ 1919198072;
+          continue;
+        case 361:
+          this.Size = new Size(1096, 669);
+          this.ParentChanged += new EventHandler(this.\u200B‫‏⁭⁯‮⁫‭‏⁫‬⁭⁮⁮‭‬‮⁫⁪⁮‍⁫‪⁫‪⁬⁯‍‏‭‮⁫‌⁯⁬‌‬‪⁯⁮‮);
+          num1 = (int) num2 * -1966806369 ^ -1674015350;
+          continue;
+        case 362:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.Id = 10;
+          num1 = (int) num2 * -1111217469 ^ 1764894321;
+          continue;
+        case 363:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.Elements.Add(element2);
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.Elements.Add(element3);
+          num1 = (int) num2 * -1393268930 ^ -2066762516;
+          continue;
+        case 364:
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_PasswordChar(char.MinValue);
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_SelectedText("");
+          num1 = (int) num2 * -698360382 ^ 1112103471;
+          continue;
+        case 365:
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Style = ElementStyle.Item;
+          this.\u202D‬‪⁯‌⁫‪⁮⁬‏‏‌⁮‭‮‍⁭‎⁯‬‪⁪‎‎‪⁯‎⁪‫‮‍​⁯⁫‍‬‬⁭⁪⁯‮.Text = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(991385180U);
+          num1 = (int) num2 * 1192149337 ^ -603837677;
+          continue;
+        case 366:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Normal.BorderColor = Color.Transparent;
+          num1 = (int) num2 * -1115604575 ^ -2033291989;
+          continue;
+        case 367:
+          this.\u202E⁭‮‬‍⁫‫⁭‬‍‬⁬​‏‫‮‭​⁭‭‪⁬⁯​⁮⁪⁫‌⁫‍‏⁭​‎‍⁫​‏‌‮.AllowAnimation = false;
+          num1 = (int) num2 * -896233592 ^ -256628342;
+          continue;
+        case 368:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.Options.UseForeColor = true;
+          num1 = (int) num2 * -1320058880 ^ -35552212;
+          continue;
+        case 369:
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.DockControls.Add(this.\u206E‏‮⁪‮​⁬⁫​‫‌‌‌‌‫‫‏⁬⁫⁮​⁫‬‍‫‫‫⁬⁭‭‫⁫‪‍‏⁪​‭‎‏‮);
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.DockControls.Add(this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮);
+          num1 = (int) num2 * -111019082 ^ -1574938323;
+          continue;
+        case 370:
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.AccordionControl.Options.UseBackColor = true;
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Disabled.BackColor = Color.FromArgb(37, 37, 37);
+          this.\u200F⁬‬‪‏‬‬‌‭‬‭‍‏‫‎⁬‭​‎⁭⁫‬‍​‎⁬‎⁯‭‮⁪⁬‫‭‏‏⁬⁫‭⁯‮.Appearance.Group.Disabled.Options.UseBackColor = true;
+          num1 = (int) num2 * 973326307 ^ 99948635;
+          continue;
+        case 371:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.Name = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(3611529928U);
+          num1 = (int) num2 * -980433681 ^ 872208732;
+          continue;
+        case 372:
+          this.\u206C‏‫‍‫‬‮‏⁬⁪⁭⁮⁮‭⁭⁭​‏‍‏⁬⁮⁫‮⁬⁮⁫‌‪‎⁭‎⁪‬‌​⁬‭⁫‎‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‮‎‍⁯⁯⁬⁭‎‪‫⁮‮⁯‭⁭‬⁭⁭‫‭‎‭‮‏‌⁬‭⁪⁭‮⁯​⁪⁬⁭⁯‏​‭‮();
+          num1 = (int) num2 * -2063161541 ^ 1868484756;
+          continue;
+        case 373:
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_UseSystemPasswordChar(true);
+          num1 = (int) num2 * -1600710847 ^ 1241201484;
+          continue;
+        case 374:
+          this.\u202B⁮‬‏‎⁯⁮⁬⁯‎‫‬‬‬‌‍‍⁭​‎‎⁫‬⁯‬‌‪⁬⁬‬‍⁬⁯‌‮‮‭⁪‮‍‮.DockControls.Add(this.\u202E⁬‌⁮‪‬⁪‏⁮‌⁭⁮​‍⁭‍⁮‬‭⁫⁫⁭‮‬⁪‬⁯⁮‭‏‪‏‏⁮‭⁫‬⁪​⁫‮);
+          num1 = (int) num2 * 1847107307 ^ -537731833;
+          continue;
+        case 375:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1624128091U));
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemAppearance.Hovered.ForeColor = Color.White;
+          num1 = (int) num2 * 985307830 ^ -2109739646;
+          continue;
+        case 376:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemAppearance.Hovered.ForeColor = Color.White;
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemAppearance.Hovered.Options.UseForeColor = true;
+          num1 = (int) num2 * 1532861969 ^ -59607825;
+          continue;
+        case 377:
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_MaxLength(15);
+          this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮.set_MouseState((MouseState) 0);
+          num1 = (int) num2 * -1439719550 ^ 781326566;
+          continue;
+        case 378:
+          goto label_1;
+        case 379:
+          this.\u202E‪⁪​‎‏⁪⁫⁬⁮‫‍‫⁯​‍‪‬⁬⁭⁫‭‬‌‌​‬‌‭‮‏‫‮⁫‬⁯⁮​‏‮‮.EndInit();
+          num1 = (int) num2 * -759119563 ^ -476796825;
+          continue;
+        case 380:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 10f);
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.ForeColor = Color.DimGray;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.Options.UseBackColor = true;
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Hovered.Options.UseBorderColor = true;
+          num1 = (int) num2 * -1968927716 ^ -1339027301;
+          continue;
+        case 381:
+          accordionContextButton7.Caption = \u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(3680198286U);
+          num1 = (int) num2 * 235078235 ^ 713659600;
+          continue;
+        case 382:
+          this.\u206D‍‏⁬‍​‏​⁭‪‍‏⁭‪‏‪‏⁭‌‭‌⁯‭​⁮⁯‏⁫‏‫⁬‪⁪‭⁬‬‭⁭‎‏‮.Images.SetKeyName(2, \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(1670677502U));
+          num1 = (int) num2 * -699775219 ^ -1037626884;
+          continue;
+        case 383:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.BorderColor = Color.Transparent;
+          num1 = (int) num2 * -1649939617 ^ 1399906439;
+          continue;
+        case 384:
+          this.\u202C⁮‎⁫‌⁪⁯‏⁫‪‭⁬⁬⁪‪⁯‭⁯‭​​‬‫‏‫‪‍‏‫⁯⁭‮‪‬⁮​‮‏‭‏‮.ItemAppearance.Pressed.ForeColor = Color.White;
+          num1 = (int) num2 * -582702251 ^ -367995569;
+          continue;
+        case 385:
+          this.PerformLayout();
+          num1 = (int) num2 * -99837694 ^ -399645172;
+          continue;
+        case 386:
+          \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200E⁯‏‪‪⁮⁪⁫‍‌‬⁮‭⁬⁭⁯‭⁮‪‏⁯‪⁮⁪⁬‬‎‏‪⁮‏‫​‪‌‍⁫‎⁯‬‮(\u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202E‭‍‌‬‬‬⁬‮‭‍‎⁪⁮​⁫⁪‎⁮‎⁯‌⁪‬‬‍⁮‮⁭⁯⁪⁭‫‬⁮‮‬⁭⁭⁪‮(this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮), \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206A‬⁭​‌⁯‫‫‍‏⁫‪⁪‮‌‍‏⁯⁬⁪‮‎⁮⁪‭‫‍⁮‪‪​‌‬⁬⁬‍‫‭‭‍‮(\u003CModule\u003E.\u202B‭⁯⁮⁭⁭⁪‭‍⁮‪‌‮⁮⁭⁫‮‎‪⁮​‫‌⁫⁯⁫⁪‪⁯‭‏⁮‬‮​‎‪‏⁪‬‮<string>(1461506078U), 10f));
+          num1 = (int) num2 * -1915215027 ^ 163304496;
+          continue;
+        case 387:
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.Elements.Add(element6);
+          this.\u202B‬⁯‏‪⁯⁬⁬‫‏‎⁮‎‬‌‎‌⁬‫‌‌‬‏⁭⁮‫⁪⁬⁬⁮‪‍‏‌⁭⁬⁭‭‬‍‮.Elements.Add(element1);
+          num1 = (int) num2 * -1242054546 ^ 1516422800;
+          continue;
+        case 388:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.ContextButtons.Add((ContextItem) accordionContextButton1);
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.ContextButtons.Add((ContextItem) accordionContextButton5);
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.ImageOptions.Image = (Image) componentResourceManager.GetObject(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(811684607U));
+          num1 = (int) num2 * -1079549559 ^ -527519812;
+          continue;
+        case 389:
+          this.\u206B‬‮⁪‭‪‭‭‪‬​‮‎‍⁫⁫‎⁯‭‍⁮‪‮⁪⁫⁫‌⁯⁬​⁮‪⁭⁫‬‮⁬‌⁭‌‮.Size = new Size(347, 35);
+          num1 = (int) num2 * -196972712 ^ -1659089989;
+          continue;
+        case 390:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.BorderColor = Color.Transparent;
+          num1 = (int) num2 * -409316672 ^ -127804201;
+          continue;
+        case 391:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.Id = 8;
+          num1 = (int) num2 * 1321423202 ^ 1319356115;
+          continue;
+        case 392:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Normal.Options.UseForeColor = true;
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.BackColor = Color.Transparent;
+          num1 = (int) num2 * 1635362778 ^ 1927212441;
+          continue;
+        case 393:
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.EndInit();
+          this.\u200C⁬‬⁫‭⁮⁯‪‭‬​⁫⁫‮‭⁪⁪‏‭‍‌‭⁫‮⁪‫⁪⁯‎⁫‬‫‬‮‮‌⁯‎‮‫‮.ResumeLayout(false);
+          this.ResumeLayout(false);
+          num1 = (int) num2 * 1043088437 ^ -1689719814;
+          continue;
+        case 394:
+          this.\u206B‭‍‌‬‍​‌⁬⁫⁭⁫⁯‫⁬‬⁪‬⁮‮‭‭‎‭‮‮⁮⁫‪‮⁪‎‏⁯⁮‫‬⁭⁪‫‮.ItemInMenuAppearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * -123463871 ^ 304584587;
+          continue;
+        case 395:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.Font = new Font(\u003CModule\u003E.\u202A⁪‍⁮​‫⁬⁪‮‏‮‎⁯‭⁪⁬‪‌‫⁮‮‌‫‮⁫‍⁬⁭‪⁯‌​‫⁫‬‏‍‏⁮⁪‮<string>(872776198U), 10f);
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.ForeColor = Color.DimGray;
+          num1 = (int) num2 * -1738881387 ^ 1381723938;
+          continue;
+        case 396:
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Groups.Add(this.\u200E⁪⁯​‭‪⁯⁫‫‌⁮‭‪‎‪⁯‬‏‍⁪​‏‎⁮‮‬⁮‬‭‬‎‫‎⁯⁮‏​‬‫‏‮);
+          num1 = (int) num2 * 1859517261 ^ -1315351189;
+          continue;
+        case 397:
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.ItemSize = 60;
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Location = new Point(0, 519);
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.LookAndFeel.UseDefaultLookAndFeel = false;
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.MaxId = 3;
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Name = \u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(1923897914U);
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Orientation = Orientation.Vertical;
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Padding = new Padding(0, 12, 0, 0);
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Size = new Size(347, 150);
+          num1 = (int) num2 * -735001794 ^ -1839785202;
+          continue;
+        case 398:
+          this.\u206E⁬⁪⁯⁭⁫‭‭⁯‭⁯‫‪⁫‏⁫‏‌‪‍⁮⁫‎⁯‪‭⁯‫‫⁯⁬‫⁬⁮⁫​⁯⁯⁬‮‮.FieldName = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(3960927032U);
+          num1 = (int) num2 * -754056297 ^ 1715749253;
+          continue;
+        case 399:
+          this.\u200D⁭⁯⁭⁫‬⁫⁮‏⁭‌⁬‬‫‏‫​‎‪​⁪‫‍⁮⁬‌‏‎⁯⁬⁫‎⁮​‎‏‎‫⁯‪‮.Appearance.Normal.Options.UseForeColor = true;
+          num1 = (int) num2 * 184951293 ^ 85814431;
+          continue;
+        case 400:
+          this.\u200E‬‮⁭‍​‪‌‎‏‌⁫‫⁬‫‎‫​‭⁪‫‮‏‎‌‏⁮‬⁭⁯‫⁫‏⁬⁯‭‏‫⁪⁫‮.Appearance.Pressed.Font = new Font(\u003CModule\u003E.\u206A​⁯‌⁪‏​‮‎​⁪‬​⁭⁯‎⁭‏‏⁮‍‍⁮⁬‭⁬‪‭‪‭⁬​⁫⁪‬‭⁪‮⁪⁫‮<string>(3402550598U), 10f);
+          num1 = (int) num2 * 1107711285 ^ -1607187240;
+          continue;
+        case 401:
+          this.\u206D‬‮‏⁯‫⁮‌⁯⁭‮‬‮⁫‪‏⁫​‪‮‬‍⁪‍⁫‍‌‎⁫⁪⁮⁮⁮‪​⁭⁫‌‪⁫‮.Appearance.Pressed.Options.UseBackColor = true;
+          num1 = (int) num2 * -856579944 ^ -436093749;
+          continue;
+        case 402:
+          this.\u206B⁯⁫⁮‍‏‏‮‌⁪⁯⁬⁯‏‎‫⁮⁮⁭⁪⁫⁪‍‮⁫‫⁯‌‫⁬‮‏⁫⁪‏⁯⁮‮‫⁬‮.Appearance.Pressed.BackColor2 = Color.Transparent;
+          num1 = (int) num2 * 845179008 ^ -1208465045;
+          continue;
+        case 403:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.Controls.Add((Control) this.\u200E⁮⁭‌⁮‪⁫‌⁫‮⁬⁯⁭‪‮‪‏‎‍⁬‭⁮‮‬⁫‭⁫‌‌⁫‬‫⁬‌‍⁫​‬‬‎‮);
+          num1 = (int) num2 * -1584397957 ^ 2054599951;
+          continue;
+        case 404:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.ResumeLayout(false);
+          num1 = (int) num2 * 58239751 ^ -1646398425;
+          continue;
+        case 405:
+          this.\u206C‏‫‍‫‬‮‏⁬⁪⁭⁮⁮‭⁭⁭​‏‍‏⁬⁮⁫‮⁬⁮⁫‌‪‎⁭‎⁪‬‌​⁬‭⁫‎‮.Name = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(1384600700U);
+          num1 = (int) num2 * 378907878 ^ -1842417073;
+          continue;
+        case 406:
+          element5.ImageOptions.ImageAlignment = TileItemContentAlignment.MiddleCenter;
+          num1 = (int) num2 * -559075864 ^ -15327621;
+          continue;
+        case 407:
+          this.\u202E⁯‪‏​⁯​‬‎‪‫⁬‫‌‎‪‭‮⁯‭⁬‍‭‫‭‍‌⁮‪‭‫‮⁭⁪‭‎⁯‬‫‮.BackColor = Color.FromArgb(45, 45, 47);
+          num1 = (int) num2 * -26188135 ^ -1131331734;
+          continue;
+        case 408:
+          this.\u200E⁪⁯​‭‪⁯⁫‫‌⁮‭‪‎‪⁯‬‏‍⁪​‏‎⁮‮‬⁮‬‭‬‎‫‎⁯⁮‏​‬‫‏‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200F‎‫‮​⁭‪⁬‬‬‭⁬‍‪⁪‭‪⁭‮‮⁮⁮⁮⁯⁪⁮‫‪⁪⁭‪​‏‭‭‏‬⁭‏⁫‮();
+          num1 = (int) num2 * -1879339788 ^ 1681247793;
+          continue;
+        case 409:
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.AllowSelectedItemBorder = false;
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.BackColor = Color.FromArgb(37, 37, 37);
+          this.\u206F‫‪‮‭‪⁮‮‭‏⁬​‎⁫‭‮⁭‌​⁬⁭‭⁪‭​‌⁭‎‌⁫⁯‏‮‮⁪⁫⁬⁫‫‍‮.Cursor = Cursors.Default;
+          num1 = (int) num2 * 2012346580 ^ 1542881807;
+          continue;
+        case 410:
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemInMenuAppearance.Hovered.Options.UseForeColor = true;
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemInMenuAppearance.Normal.ForeColor = Color.White;
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemInMenuAppearance.Normal.Options.UseForeColor = true;
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮.ItemInMenuAppearance.Pressed.ForeColor = Color.White;
+          num1 = (int) num2 * -2013024925 ^ 2088987115;
+          continue;
+        case 411:
+          this.\u200D‏⁮‭‍​⁮⁮‬⁮⁬⁮‪‫⁬‍⁮‪⁯⁮‮⁮‫⁫‎‫⁬‌‮‮‏​⁮⁬‬‭‎‬‬‮‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u202C‭‫‌‏⁫⁬‏⁮‍⁮‭⁯‏‌⁪‮⁪‎⁭‍⁪‍⁪‌‌⁫⁮‎⁯‍‎⁯‭‌‍‌‌‍‎‮();
+          this.\u206D‏‌​‍⁯‌⁯⁭‍‍‍‫⁯​‍⁫‮⁬‌⁮‪‫⁬⁭‌⁮‏⁬‌‫⁫‮‪‎‬‍‬‫‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200C​‏‍‍‪‪‏‮‫‏‎‏‬‎‭‬‍‪‪‪‎‍‌‌‬‫​‪⁭‪‮⁮‍‬‫‮⁫​‏‮();
+          this.\u200C‬‫‮‫‪⁪⁫⁬‫‮‬‫‮‭⁭‭‍⁪‮‍‭⁫‏‫‏‮⁬⁮‭‪‬‫‪​‌⁮‏‌‌‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u200C​‏‍‍‪‪‏‮‫‏‎‏‬‎‭‬‍‪‪‪‎‍‌‌‬‫​‪⁭‪‮⁮‍‬‫‮⁫​‏‮();
+          num1 = (int) num2 * 1668314524 ^ 1995132965;
+          continue;
+        case 412:
+          element3 = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206F‌​⁭‫⁯⁮‬⁮⁮‍⁮‌‫‫⁪⁯‫⁪‬​⁮‫‌‫‍⁪‍⁭‍‮‮⁬‌⁭‌‍⁪‍‮();
+          this.\u202B⁬⁫​‏⁮‭‬⁪‎‭​⁪⁯⁪‍​‬‬​‬⁫‫‍‫‌⁯​‬⁯‪⁬‫‭‬⁬⁮‮‫‌‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206D⁮‍⁭‍‍⁯‌⁮​‮⁫‮⁯⁭⁪⁮‎⁭‍‫‬‫⁪​⁫⁪‮‬⁭​⁫‫‎‪‪‌⁪⁬‮();
+          this.\u200E⁫‫⁫‌‫‬‭‭‎⁮‭‬⁭⁬‫‫⁮⁮‍​‪‏‮⁪‭‏⁫‍‌⁮⁪​⁬⁬‫‮‮‌⁯‮ = \u0022mo\u0024\u003AC\u0026\u0020up1\u0025GARdE\u0027y\u00224v\u005EO\u0025.\u206A‭‭​‍‍‏⁯⁪⁫⁫‭‭‫⁯‍‏‬‭⁪⁫⁮‪⁮‬‪‫⁮‮⁮‫‌‌‏⁬‪⁭⁪⁯‫‮();
+          num1 = (int) num2 * -1449204600 ^ 2078942273;
+          continue;
+        case 413:
+          element2.TextAlignment = TileItemContentAlignment.TopCenter;
+          element3.Text = \u003CModule\u003E.\u200D‍‬⁯‭‫‪⁯⁬‪‮⁭‎‎‌⁭‌‎⁬‏⁫‫‬⁪⁬‭⁪⁭‮⁬⁫⁯​‌‏‮⁭‪⁫⁯‮<string>(3733264674U);
+          num1 = (int) num2 * -1901254823 ^ -1505717652;
+          continue;
+        default:
+          goto label_416;
+      }
+    }
+label_3:
+    return;
+label_416:;
+  }
+
+  static BackgroundWorker \u200D⁯‌‎​⁬⁮⁮⁭⁫⁫⁭‫‭⁮‫‪​⁪‬‫‎​‮⁫⁪‍⁮⁬⁯​‎⁭‪⁭‌⁪⁭‬‏‮()
+  {
+    return new BackgroundWorker();
+  }
+
+  static void \u206F‎‎​⁯‭‏⁪⁮‍⁪‬‮⁫⁮⁬​​‮‏‪‬⁪⁬‫⁭‮⁪⁮⁬⁯⁪‭‮‍‍⁯⁬‌‍‮(
+    [In] BackgroundWorker obj0,
+    [In] DoWorkEventHandler obj1)
+  {
+    obj0.DoWork += obj1;
+  }
+
+  static void \u202B‬‏‎‮‮⁫⁭‫‌⁮‍‪⁫‭‍‮‭‪‏⁭‬‏⁪‭⁭⁯⁯‪‪⁯⁬‮⁬⁬⁮‬‫‏‮([In] Form obj0, [In] CancelEventHandler obj1)
+  {
+    obj0.Closing += obj1;
+  }
+
+  static void \u206F‏⁮⁪‎‌‫‫‫‎‬‬‏‏⁬⁮⁮‍‎‌⁭⁫‭‭‬⁪‎‭​‌⁭⁮⁯‮⁯⁪‎​‏‎‮([In] Control obj0, [In] bool obj1)
+  {
+    obj0.Visible = obj1;
+  }
+
+  static void \u200D‫‎⁪⁮⁬⁮‌⁬‭⁪⁮​‍‭⁪‬‌‫‭‫‎​⁮‪⁯‬‏⁫‬‫‌‬‭‮‭‮‮‪‫‮([In] CancelEventArgs obj0, [In] bool obj1)
+  {
+    obj0.Cancel = obj1;
+  }
+
+  static string \u202D⁪‬‎‏‭⁯‫‬⁯⁫⁮⁫⁮‎​⁮⁭⁭‬‫‬‫⁯⁪‮⁬‌‫⁭‬⁭⁮‌‪‪‭‎⁮‬‮([In] Control obj0)
+  {
+    return obj0.Text;
+  }
+
+  static Control \u200E​‮⁪‮‏⁬⁭‏‪​⁪‏‎‎‬‮⁪‫‎⁮‌‫‍‎‭​‍⁮⁪‌‍‭‍⁪‪‪‪​‬‮([In] Control obj0)
+  {
+    return obj0.Parent;
+  }
+
+  static bool \u206B⁯‬‍‎⁭‬‮⁫⁫‪​⁭⁬‌⁫‎‎‪‎⁪‎⁯‪⁯⁪⁫⁬⁮⁫‎‮⁯⁮⁫⁯‎‎⁭⁪‮([In] BackgroundWorker obj0)
+  {
+    return obj0.IsBusy;
+  }
+
+  static void \u200E‮‏⁭⁪‌‪‍⁭‏‌⁯‭⁪⁬‏‮⁭⁮‍⁯‍‏‍⁪‌⁯⁪⁫‪⁯⁮⁭⁯‭⁬‪​‏‌‮([In] BackgroundWorker obj0)
+  {
+    obj0.RunWorkerAsync();
+  }
+
+  static void \u202E‫‎‫​‎⁪‮‫​‪‪‏‏⁬‎⁬⁭​‪‍⁬‫⁯‌⁯⁪‍‎‬‬⁫⁭‎⁬⁯‫⁫⁬‌‮([In] Control obj0, [In] string obj1)
+  {
+    obj0.Text = obj1;
+  }
+
+  static string \u202E⁮⁫‭⁫‬‫⁪‏‮‍‭‌⁯⁪⁭⁮‍⁪‭‪⁭‭‫‎⁬‎⁬‬⁮‏‬⁯⁯‏‫⁬​⁯‬‮([In] Exception obj0)
+  {
+    return obj0.Message;
+  }
+
+  static void \u206A⁮⁪‌‫‎⁫‭‫⁮⁬‍‮‏‭⁮‫‪‫​‎‎⁭⁫⁪‭⁭‌⁬‭⁯‭​‭‎⁮⁯‪‭‎‮([In] Control obj0)
+  {
+    obj0.Refresh();
+  }
+
+  static void \u200D‎⁪‌⁯⁪‏‫‌‪⁮⁫‫‎‮⁬‍‪⁯‏‮⁫⁬‪‬‬‫‭⁭⁯⁯​‭‏⁫‎‭‌‬‬‮([In] TileControl obj0, [In] bool obj1)
+  {
+    obj0.AnimateArrival = obj1;
+  }
+
+  static int \u200F⁯⁮⁭‏‮⁪‮‭⁬‬‫⁬⁫⁯⁫⁪⁪⁯⁯⁯⁫‌⁫‌⁭⁫‫⁯‍⁪⁫⁪⁮‏‫‏⁬⁮‎‮([In] Control obj0)
+  {
+    return obj0.Width;
+  }
+
+  static Size \u202E‎⁭‮‪⁭‎⁭​⁮⁯⁮⁯​⁫‬​‮‮‪⁪‎⁯‮‬‍‫‍⁬‌‬⁯‌⁪⁫⁬‫⁬⁯⁪‮([In] Control obj0)
+  {
+    return obj0.Size;
+  }
+
+  static void \u200B‎‬‬‌‮⁪⁯‏‭‌‫‮‫⁪‫⁬⁯‫‍‏‫⁯‎‍⁫⁮​‍⁮‍‫‍⁯⁪‪‬‍‌⁭‮([In] KeyEventArgs obj0, [In] bool obj1)
+  {
+    obj0.Handled = obj1;
+  }
+
+  static void \u200C‬‬‍⁬⁭‬‮‎‪‪⁪‌‫‮‏‍‍‭‭⁬‍‫‌‌‌⁪‪‎⁮​⁪⁬‪‌‎⁮⁮⁮‫‮([In] IDisposable obj0)
+  {
+    obj0.Dispose();
+  }
+
+  static Container \u200C⁬⁯‎‭⁭‭‌‍‌‪⁭⁮‭​‍‭⁭‏‭⁫​‌⁪​‬‫‌‫⁬⁪‫‫⁯‏‪‭‌‫‪‮()
+  {
+    return new Container();
+  }
+
+  static Type \u206E⁮‮‏⁫‮‍‬‏⁯⁭‭⁭‪⁯‬‍‬​⁯‎‪‬‪⁬⁮‬‏‪⁯‮‮‌‫​‌⁬‎‭‮‮([In] RuntimeTypeHandle obj0)
+  {
+    return Type.GetTypeFromHandle(obj0);
+  }
+
+  static ComponentResourceManager \u202C⁫‮‏⁬‮⁮‬‫‎⁬‍‎⁫‬⁮⁫‫‮​‪‏​⁭‮​⁮‏​‍‬‎⁬⁪⁬‬‏‬‌‫‮(
+    [In] Type obj0)
+  {
+    return new ComponentResourceManager(obj0);
+  }
+
+  static AccordionContextButton \u206F⁮‮​⁬‪⁯​⁯‬⁪​‌‎‏‬⁯​‭‌⁫⁮⁯‪‮‪⁯⁪⁭‮‭‭‏⁭‫⁬‮‪‭‎‮()
+  {
+    return new AccordionContextButton();
+  }
+
+  static TileItemElement \u206F‌​⁭‫⁯⁮‬⁮⁮‍⁮‌‫‫⁪⁯‫⁪‬​⁮‫‌‫‍⁪‍⁭‍‮‮⁬‌⁭‌‍⁪‍‮()
+  {
+    return new TileItemElement();
+  }
+
+  static XtraTabControl \u206D⁮‍⁭‍‍⁯‌⁮​‮⁫‮⁯⁭⁪⁮‎⁭‍‫‬‫⁪​⁫⁪‮‬⁭​⁫‫‎‪‪‌⁪⁬‮()
+  {
+    return new XtraTabControl();
+  }
+
+  static SidePanel \u206A‭‭​‍‍‏⁯⁪⁫⁫‭‭‫⁯‍‏‬‭⁪⁫⁮‪⁮‬‪‫⁮‮⁮‫‌‌‏⁬‪⁭⁪⁯‫‮()
+  {
+    return new SidePanel();
+  }
+
+  static TreeList \u202A‌‬‏⁮⁮‌‭‏⁮⁬‭⁮​⁪⁫‎‪‍​‏​‭⁮⁬‬‪‪⁬‪‫‬‮‌⁪‬⁮‮‌⁬‮()
+  {
+    return new TreeList();
+  }
+
+  static TreeListColumn \u200B⁮​‌‬‫‮⁪‎⁯‭‍‪‏‎‫‪‬‍‬⁪‌‪‌‫‬⁬​‪‬⁮‪⁬‬​⁮⁫⁫‍⁪‮()
+  {
+    return new TreeListColumn();
+  }
+
+  static BarManager \u200B‭⁮⁮⁯​‍​‮⁬‌‍‍⁭⁮⁪‎‏⁬​‫‬‌‏‎​‎‪‫‭⁪⁬‭‏‍‫⁪‬‍⁪‮([In] IContainer obj0)
+  {
+    return new BarManager(obj0);
+  }
+
+  static BarDockControl \u202C‭‫‌‏⁫⁬‏⁮‍⁮‭⁯‏‌⁪‮⁪‎⁭‍⁪‍⁪‌‌⁫⁮‎⁯‍‎⁯‭‌‍‌‌‍‎‮()
+  {
+    return new BarDockControl();
+  }
+
+  static BarButtonItem \u200C​‏‍‍‪‪‏‮‫‏‎‏‬‎‭‬‍‪‪‪‎‍‌‌‬‫​‪⁭‪‮⁮‍‬‫‮⁫​‏‮()
+  {
+    return new BarButtonItem();
+  }
+
+  static RepositoryItemTextEdit \u200E‍‏⁬⁫⁭⁫‭‫⁭‭⁭⁬​‬⁬⁭⁯‫‏⁫‬⁬⁪⁫⁫⁬‎⁮‫‭‫‪⁬⁬‍‫⁭⁪⁯‮()
+  {
+    return new RepositoryItemTextEdit();
+  }
+
+  static ImageList \u200B⁭⁭‎‫⁪⁮‭⁫⁬‌‮‏⁬‫⁬‏‭‭‪‫​⁫‌⁬⁯‎⁫⁪⁯‪‬​‌⁮‍‎‪‬⁫‮([In] IContainer obj0)
+  {
+    return new ImageList(obj0);
+  }
+
+  static LabelControl \u206B⁭‍‬⁫⁯‌‮⁮⁪​⁬⁯‮​⁪‬‎‍⁯‍‪​‌‍‭‌⁮⁪⁫⁯‬⁪⁯‍‭⁪⁫⁯‬‮()
+  {
+    return new LabelControl();
+  }
+
+  static Panel \u200F‭⁪‮‪⁪⁮⁭‌‫⁬​⁯‬‏‭​​‌⁮⁪⁯​⁯⁭‍‏‬‬⁬⁪⁬‪​‭‫‪​​‫‮()
+  {
+    return new Panel();
+  }
+
+  static MaterialSingleLineTextField \u200B‭⁫‏⁬⁭⁭‍‭⁪⁯‍⁯‎‏⁭‌⁪‫‮‌‌‭⁬‍‫‮‏‎⁭⁬⁬‎‌⁬‎⁮‎‮‬‮()
+  {
+    return new MaterialSingleLineTextField();
+  }
+
+  static MaterialRaisedButton \u206D‭⁮‬⁮⁭⁭‌⁫‭⁪​‍⁭‍‪‬‌⁯‭⁯‏‭‌​‪⁭‪​‬‭⁯⁫‮⁬​‭​‎‪‮()
+  {
+    return new MaterialRaisedButton();
+  }
+
+  static AccordionControl \u202E‮‌⁪‏‮‪⁯‎‬‌⁬⁫‎​‭‍‭‌‎​‫‭‏‭‏‏⁪⁯‪‌‏‬⁫‏‍⁪⁫​⁪‮()
+  {
+    return new AccordionControl();
+  }
+
+  static AccordionControlSeparator \u206F‮‎‍⁯⁯⁬⁭‎‪‫⁮‮⁯‭⁭‬⁭⁭‫‭‎‭‮‏‌⁬‭⁪⁭‮⁯​⁪⁬⁭⁯‏​‭‮()
+  {
+    return new AccordionControlSeparator();
+  }
+
+  static AccordionControlElement \u200D⁬‏‌‎‏‭‍⁪‍‪‏​‏⁯⁫‬‬‏‏‬‍⁫‏⁭⁬⁪‭⁯‌‫‍‫⁯⁮⁭⁬‍⁮‏‮()
+  {
+    return new AccordionControlElement();
+  }
+
+  static TileControl \u206E‌‪⁬‌‎‭⁪⁬‫⁯‫‍⁬⁮‫‎​⁬⁪‍⁯‎‬‫‌⁭⁬‪⁪​⁫‬‮‎‎⁯‫⁯‎‮()
+  {
+    return new TileControl();
+  }
+
+  static TileGroup \u200F‎‫‮​⁭‪⁬‬‬‭⁬‍‪⁪‭‪⁭‮‮⁮⁮⁮⁯⁪⁮‫‪⁪⁭‪​‏‭‭‏‬⁭‏⁫‮()
+  {
+    return new TileGroup();
+  }
+
+  static TileItem \u202B​​‫⁫‍‭‬⁯‪‮⁬‍⁯⁪‬⁫⁬‌⁫‭‎‪‮⁮‏‭‌​‎​‌‮​⁮⁭‮⁮‌⁪‮()
+  {
+    return new TileItem();
+  }
+
+  static PopupMenu \u206F⁭⁯⁫⁫‌‮‪⁫⁭⁫‏‭‬‫⁪‫⁫‭‌‮⁬⁪‏‏‌‌⁮⁪‏⁯‬​⁮⁬⁮‫​‫⁪‮([In] IContainer obj0)
+  {
+    return new PopupMenu(obj0);
+  }
+
+  static PanelControl \u202B‮‎‬‬⁫‮‮‮‏⁭‬‭⁮‭⁬‮‪‏‎⁮​‬​‎‎‪‪‏‫‍‍⁫‍⁬‎⁫‍⁭‫‮()
+  {
+    return new PanelControl();
+  }
+
+  static void \u206B⁮‌⁯‫‮‪‫‎‪⁪⁯⁪‏‪‌‬⁮‍‏‏‎⁪‌‪‍‮⁬‭⁪⁪‬⁬⁫‏‬‎‍‍‬‮([In] ISupportInitialize obj0)
+  {
+    obj0.BeginInit();
+  }
+
+  static void \u206D​‫⁫⁮⁫⁫⁬‮‭‬‫‮‌‏‭⁭‭‍⁪‬⁬‭‎‬‮‌⁬‭‍‪‌‪‮‮‫‏⁪‪⁫‮([In] Control obj0)
+  {
+    obj0.SuspendLayout();
+  }
+
+  static void \u206A‮⁭‏⁯‎‌‬⁫‫‌‌‫‬⁭​⁫‍​‮⁯⁪⁫⁬‎‭‏‍⁭‮​‮⁯‭‌​⁬‍⁮‍‮([In] Control obj0)
+  {
+    obj0.SuspendLayout();
+  }
+
+  static AppearanceObject \u202E‭‍‌‬‬‬⁬‮‭‍‎⁪⁮​⁫⁪‎⁮‎⁯‌⁪‬‬‍⁮‮⁭⁯⁪⁭‫‬⁮‮‬⁭⁭⁪‮(
+    [In] XtraTabControl obj0)
+  {
+    return obj0.Appearance;
+  }
+
+  static Font \u206A‬⁭​‌⁯‫‫‍‏⁫‪⁪‮‌‍‏⁯⁬⁪‮‎⁮⁪‭‫‍⁮‪‪​‌‬⁬⁬‍‫‭‭‍‮([In] string obj0, [In] float obj1)
+  {
+    return new Font(obj0, obj1);
+  }
+
+  static void \u200E⁯‏‪‪⁮⁪⁫‍‌‬⁮‭⁬⁭⁯‭⁮‪‏⁯‪⁮⁪⁬‬‎‏‪⁮‏‫​‪‌‍⁫‎⁯‬‮([In] AppearanceObject obj0, [In] Font obj1)
+  {
+    obj0.Font = obj1;
+  }
+
+  static AppearanceOptions \u206E‬⁯‍‬‫⁭⁬​‏⁭⁫‍‫⁫​⁯⁮‮⁯⁪‍⁮‬⁬‍⁮‫⁯‏​‎‍‬‎‪‬‪⁯‪‮(
+    [In] AppearanceObject obj0)
+  {
+    return obj0.Options;
+  }
+
+  static void \u202A⁯⁪‮‪‍‪⁯‫⁭‮⁭⁪‮‬‬‭⁯⁬⁬⁬‍⁫‎⁫​‍‫‪‏⁬‬‌‬‍⁬⁭⁬⁯⁭‮([In] AppearanceOptions obj0, [In] bool obj1)
+  {
+    obj0.UseFont = obj1;
+  }
+
+  static PageAppearance \u206E‪‏⁭‏⁬⁮⁬‫⁯⁫‪⁭‭‍‫⁮‌⁮⁭‪‭‭⁯⁯‎‬‫‎⁪⁭‪⁬⁬‬⁪‪⁬⁯⁭‮(
+    [In] XtraTabControl obj0)
+  {
+    return obj0.AppearancePage;
+  }
+
+  static AppearanceObject \u200D‎‌⁫⁬‍‬‮⁪‎‭⁯‌⁯‪‮⁭⁬‏⁫‍‬⁯‭⁬⁯‎‬‏⁬‌⁬‌⁯​‮⁪⁯‏‭‮(
+    [In] PageAppearance obj0)
+  {
+    return obj0.Header;
+  }
+
+  static void \u200F‌‍‬⁯‎‮⁭‏‪‪‪⁭‬‌‌‭‮‌‎‪‮⁫​⁪⁪⁭‬⁫‬‮‌‍‮‏‍‍‮⁬⁮‮([In] AppearanceObject obj0, [In] Color obj1)
+  {
+    obj0.ForeColor = obj1;
+  }
+
+  static void \u206F⁮‏‬‪⁪⁯‬⁯‎⁬​‪‬‌‪‮‏‮‏⁬‏⁯‮‫‏‬‮‎‏⁬⁭‬⁭⁬‮‫‌⁫⁫‮([In] AppearanceOptions obj0, [In] bool obj1)
+  {
+    obj0.UseForeColor = obj1;
+  }
+
+  static AppearanceObject \u206E‌⁫⁯⁮‎​⁮​‭⁪‎⁮⁯⁫‭‭⁭​‮‏‫⁮‮‎‎⁪‬⁪⁬​⁭‭⁫⁯‫⁬‮​‬‮(
+    [In] PageAppearance obj0)
+  {
+    return obj0.HeaderActive;
+  }
+
+  static AppearanceObject \u206D​‍‬‌‭‌⁭⁬⁪‭⁫‍⁯‌⁬‎‎‪‌‌‏‬‪⁮‭​‍‪‌⁫‏​‪‫⁮​‍‬⁬‮(
+    [In] PageAppearance obj0)
+  {
+    return obj0.HeaderHotTracked;
+  }
+
+  static AppearanceObject \u202B‎‎‫⁫‎⁬‏⁫⁪‫‍⁪⁮‭‫‍⁯‎‌‬⁮‫⁯‍⁫⁮‮⁫‍‮⁯‮‎⁭‪‫‮‫⁫‮(
+    [In] PageAppearance obj0)
+  {
+    return obj0.PageClient;
+  }
+
+  static void \u202A‮‌‌⁬​⁬⁯‏‏⁮‎⁭‮⁫⁭⁪‭⁫‎‪⁮‫‎​⁫‎‌⁫‮‭⁬⁭‎⁮‬​‎‭‌‮([In] XtraTabControl obj0, [In] BorderStyles obj1)
+  {
+    obj0.BorderStyle = obj1;
+  }
+
+  static void \u206C​⁮⁪‎‫‬‌​⁯⁪‪⁬‏⁯⁪⁭⁯⁮‌⁫‏‌‪‫⁮‮⁭​‏⁮‎‪‏‏⁭‫⁪⁭‬‮([In] XtraTabControl obj0, [In] BorderStyles obj1)
+  {
+    obj0.BorderStylePage = obj1;
+  }
+
+  static void \u200F‌⁮⁭‎‌‪‏‌‏⁮‮⁬⁪⁯‮⁮‌‪‬⁪​‏‏‏⁮‮‏⁫‏‬⁮‍‏‎⁪⁪‍‮‫‮(
+    [In] XtraTabControl obj0,
+    [In] ClosePageButtonShowMode obj1)
+  {
+    obj0.ClosePageButtonShowMode = obj1;
+  }
+
+  static void \u206F‫⁯⁫⁯‮⁫⁫‎⁪⁬‎​⁭‍‏​⁭⁭⁯‌‭⁪‪‮‎​‍⁫‪‮⁬‫⁬​‏‌‫‪‮‮([In] Control obj0, [In] DockStyle obj1)
+  {
+    obj0.Dock = obj1;
+  }
+}
